@@ -1,31 +1,39 @@
-# DiskLens
+<p align="center">
+  <img src="disklens-banner.png" width="1200" alt="DiskLens Banner">
+</p>
 
-**See what is eating your server's disk — right from chat or the console.**
+<h1 align="center">DiskLens</h1>
 
-Many hosting panels don't show folder sizes, and you often have no SSH. DiskLens scans the server folder in the background and shows a tree sorted by size, the largest files, and can write a full report to a file.
+<p align="center">
+  <b>See what is eating your server's disk, right from chat or the console.</b><br>
+  Spigot · Paper · Purpur · Folia · Minecraft 1.16.5+
+</p>
 
-[Русская версия](README.ru.md)
+<p align="center">
+  <a href="README_RU.md">Русская версия</a>
+</p>
+
+---
+
+Many hosting panels don't show folder sizes, and you often have no SSH access. DiskLens scans the server folder in the background and shows a size-sorted tree, the largest files, and can write a full report to a file.
 
 ## Features
 
-- A folder tree sorted by size, with sizes, percent of the parent folder and the top N entries per level. Everything else collapses into `… N more (X GB)`.
-- In chat, folders are **clickable**, and there are buttons for going up, rescanning and exporting.
-- Works fully from the **server console, hosting panel console and RCON**. Output there is plain text without colour codes, with an ASCII tree that renders in any panel.
-- `files` lists the largest files on the whole server.
-- `export` writes the full, unlimited report to `plugins/DiskLens/reports/`.
-- Scanning runs asynchronously and never blocks the main or region threads. Results are cached (5 min by default), `-r` forces a rescan.
-- It is safe:
-  - symbolic links and junctions are never followed;
-  - unreadable folders are skipped and counted;
-  - paths can't leave the server folder (`..` is rejected).
-- **Languages:** English and Russian. Players get their client's language, and you can add your own language file.
-- **Config and language files update themselves.** New options are appended with their comments, your values stay untouched, and a `.bak` backup is written.
-- **PlugMan / PlugManX friendly:** unload, load and update without a restart. There are no static leftovers, scans are cancelled and aliases are removed.
-- **One jar for Spigot, Paper, Purpur and Folia, Minecraft 1.16.5+.** It uses Folia's region and async schedulers when Folia is detected.
+- **Size-sorted folder tree** with sizes, percent of the parent folder and the top N entries per level. Everything else collapses into `… N more (X GB)`.
+- **Clickable chat output:** folders are clickable, with buttons to go up, rescan and export.
+- **Works everywhere:** server console, hosting panel console and RCON. Console output is plain text with an ASCII tree that renders in any panel.
+- **Largest files** across the whole server with `/disklens files`.
+- **Full report export** to `plugins/DiskLens/reports/` with no line limit.
+- **Non-blocking:** scans run asynchronously and never block the main or region threads. Results are cached (5 min by default); `-r` forces a rescan.
+- **Safe:** symbolic links and junctions are never followed, unreadable folders are skipped and counted, and paths cannot leave the server folder (`..` is rejected).
+- **Languages:** English and Russian. Players see their client's language, and you can add your own.
+- **Self-updating config:** new options are added with their comments, your values stay untouched, and a `.bak` backup is written.
+- **PlugMan / PlugManX friendly:** unload, load and update without a restart.
+- **One jar for all platforms:** uses Folia's region and async schedulers when Folia is detected.
 
 ## Installation
 
-1. Put `DiskLens-<version>.jar` into `plugins/`.
+1. Download `DiskLens-<version>.jar` and put it into `plugins/`.
 2. Restart the server, or run `plugman load DiskLens-<version>`.
 3. Run `/disklens` in game as an operator, or `disklens` in the console.
 
@@ -37,28 +45,28 @@ Many hosting panels don't show folder sizes, and you often have no SSH. DiskLens
 | `/disklens <path> [depth] [topN]` | Tree from a sub-folder, e.g. `/du world 3 15` |
 | `/disklens files [N]` | Largest files on the server (default 20) |
 | `/disklens export [path]` | Full report to `plugins/DiskLens/reports/report-<date>.txt` |
-| `/disklens status` | Scan / cache state |
+| `/disklens status` | Scan and cache state |
 | `/disklens reload` | Reload `config.yml` and languages |
 | `/disklens help` | Help |
 | `… -r` | Rescan, ignoring the cache |
 
-Write folders whose names are only digits with a slash: `/du 2024/`.
+To use a folder whose name is only digits, add a slash: `/du 2024/`.
 
-Permission: `disklens.use`, OP by default. The console and RCON always have it.
+**Permission:** `disklens.use` (operators by default). The console and RCON always have access.
 
 ### Console, panels, RCON and command blocks
 
 - **Console:** output is plain text. Scan start, progress (every `progress-log-seconds`) and finish are written to the server log.
-- **RCON and command blocks** only receive what is sent during the command call:
-  - with a fresh cache, the answer is returned immediately;
-  - otherwise the scan starts in the background, the result goes to the log, and repeating the command a few seconds later returns it directly.
+- **RCON and command blocks** receive only what is returned during the command call:
+  - with a fresh cache, the answer comes back immediately;
+  - otherwise the scan runs in the background, the result goes to the log, and repeating the command a few seconds later returns it directly.
 
 ## Configuration
 
 ```yaml
 config-version: 2          # do not edit
 language: auto             # players: auto = client language, or a code (en, ru, ...)
-default-language: en       # console/RCON and fallback language (auto = system language)
+default-language: en       # console/RCON and fallback language
 command-aliases: [du]      # extra short commands, [] to disable
 cache-minutes: 5
 default-depth: 2
@@ -72,7 +80,7 @@ report-ascii-tree: false
 progress-log-seconds: 5
 ```
 
-Translations live in `plugins/DiskLens/lang/<code>.yml`. Copy `en.yml` to a new code, translate it and run `/disklens reload`. Missing keys always fall back to English.
+Translations live in `plugins/DiskLens/lang/<code>.yml`. Copy `en.yml` to a new code, translate it and run `/disklens reload`. Missing keys fall back to English.
 
 ## PlugMan / PlugManX
 
@@ -85,15 +93,58 @@ On Folia, use unload + load. In PlugManX 3.0.2, `plugman reload` throws `Unsuppo
 
 ## What usually takes the space
 
-- map render tiles (`bluemap/web/maps`, Dynmap);
+- map render tiles (BlueMap `web/maps`, Dynmap);
 - `world*/region`, especially large nether or end pregens;
 - backup archives in the server root;
 - `plugins/CoreProtect/database.db` (`co purge t:30d`);
 - a huge `logs/latest.log`;
 - `plugins/spark` profiles and heap dumps.
 
-## Building
+## Building from source
 
-You need JDK 21 to build (the plugin itself targets Java 8). Run `gradlew build`. The jar is in `build/libs/`.
+You need JDK 21 to build (the plugin itself targets Java 8 bytecode for the core and Java 17 for the Folia bridge).
 
-Integration tests start real servers of several cores and versions: `python -I itest/run_matrix.py [filter]`. Results go to `itest/results/`.
+```bash
+./gradlew build
+```
+
+The jar is written to `build/libs/`.
+
+Integration tests start real servers of several cores and versions:
+
+```bash
+python -I itest/run_matrix.py [filter]
+```
+
+Results go to `itest/results/`.
+
+## License
+
+```
+Copyright (c) 2026 ProjectENIUS
+All Rights Reserved.
+
+1. PERMITTED USE
+- Server Usage: You may download and run the official compiled plugin binary (.jar) 
+  on your Minecraft server(s) for personal or commercial server operation.
+- Source Code Viewing: You may view and fork the source code solely for personal 
+  educational purposes, reference, or submitting Pull Requests to the official repository.
+
+2. RESTRICTIONS
+Without prior written permission from the copyright holder, you may NOT:
+- Copy, modify, or use any part of the source code in your own plugins, mods, or software.
+- Compile and distribute your own builds (modified or unmodified) of this plugin.
+- Redistribute, re-upload, sublicense, or sell the compiled binary or the source code 
+  on any website, platform, or inside public modpacks/server setups.
+
+3. CONTRIBUTIONS
+Any Pull Requests or code contributions submitted to the official repository become 
+subject to this same All Rights Reserved license, unless otherwise agreed in writing.
+
+4. DISCLAIMER
+THE SOFTWARE AND SOURCE CODE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION 
+WITH THE SOFTWARE.
+```

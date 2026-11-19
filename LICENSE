@@ -1,0 +1,26 @@
+Copyright (c) 2026 ProjectENIUS
+All Rights Reserved.
+
+1. PERMITTED USE
+- Server Usage: You may download and run the official compiled plugin binary (.jar) 
+  on your Minecraft server(s) for personal or commercial server operation.
+- Source Code Viewing: You may view and fork the source code solely for personal 
+  educational purposes, reference, or submitting Pull Requests to the official repository.
+
+2. RESTRICTIONS
+Without prior written permission from the copyright holder, you may NOT:
+- Copy, modify, or use any part of the source code in your own plugins, mods, or software.
+- Compile and distribute your own builds (modified or unmodified) of this plugin.
+- Redistribute, re-upload, sublicense, or sell the compiled binary or the source code 
+  on any website, platform, or inside public modpacks/server setups.
+
+3. CONTRIBUTIONS
+Any Pull Requests or code contributions submitted to the official repository become 
+subject to this same All Rights Reserved license, unless otherwise agreed in writing.
+
+4. DISCLAIMER
+THE SOFTWARE AND SOURCE CODE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR BE 
+LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, OUT OF OR IN CONNECTION 
+WITH THE SOFTWARE.
