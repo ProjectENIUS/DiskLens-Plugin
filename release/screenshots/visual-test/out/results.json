@@ -1,0 +1,110 @@
+[
+ {
+  "name": "tree: header line",
+  "ok": true,
+  "detail": "Scanning the server folder in the background, this may take a while…|━━ ./ (server root)  18.3 GB, 4 263 files, 621 folders|Partition: 222 GB used of 238 GB, 15.9 GB free (your hosting quota may differ)"
+ },
+ {
+  "name": "tree: unicode glyphs (├─ └─)",
+  "ok": true
+ },
+ {
+  "name": "tree: backups/ listed",
+  "ok": true
+ },
+ {
+  "name": "colour: folder name aqua",
+  "ok": true,
+  "detail": "[{\"t\":\"├─ \",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"backups/\",\"c\":\"aqua\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens backups/ 2 10\",\"h\":\"Open backups/\"},{\"t\":\"  10.0 GB\",\"c\":\"red\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\" (54.7%)\",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  4 f.\",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null}]"
+ },
+ {
+  "name": "colour: size >=50% red",
+  "ok": true
+ },
+ {
+  "name": "colour: size 5-20% yellow",
+  "ok": true,
+  "detail": "[{\"t\":\"├─ \",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"bluemap/\",\"c\":\"aqua\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens bluemap/ 2 10\",\"h\":\"Open bluemap/\"},{\"t\":\"  2.9 GB\",\"c\":\"yellow\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\" (15.7%)\",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  66 f.\",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null}]"
+ },
+ {
+  "name": "colour: size <5% green",
+  "ok": true
+ },
+ {
+  "name": "colour: branch dark_gray, percent gray",
+  "ok": true
+ },
+ {
+  "name": "click: folder run_command",
+  "ok": true,
+  "detail": "[{\"t\":\"├─ \",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"backups/\",\"c\":\"aqua\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens backups/ 2 10\",\"h\":\"Open backups/\"},{\"t\":\"  10.0 GB\",\"c\":\"red\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\" (54.7%)\",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  4 f.\",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null}]"
+ },
+ {
+  "name": "hover: folder tooltip",
+  "ok": true,
+  "detail": "[{\"t\":\"├─ \",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"backups/\",\"c\":\"aqua\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens backups/ 2 10\",\"h\":\"Open backups/\"},{\"t\":\"  10.0 GB\",\"c\":\"red\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\" (54.7%)\",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  4 f.\",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null}]"
+ },
+ {
+  "name": "buttons: [Rescan] gold + click",
+  "ok": true,
+  "detail": "[{\"t\":\"Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0\",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  \",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"[Rescan]\",\"c\":\"gold\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens ./ -r\",\"h\":\"Scan again, ignoring the cache\"},{\"t\":\" \",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"[Report to file]\",\"c\":\"gold\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens export ./\",\"h\":\"Write the full report to plugins/DiskLens/reports\"}]"
+ },
+ {
+  "name": "buttons: [Report to file] gold + click",
+  "ok": true
+ },
+ {
+  "name": "plugins: header",
+  "ok": true
+ },
+ {
+  "name": "plugins: [↑ up] green + click to parent",
+  "ok": true,
+  "detail": "[{\"t\":\"━━ \",\"c\":\"dark_gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"plugins/\",\"c\":\"aqua\",\"b\":true,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  2.2 GB\",\"c\":\"red\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\", 18 files, 22 folders\",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"  \",\"c\":\"gray\",\"b\":false,\"i\":false,\"k\":null,\"h\":null},{\"t\":\"[↑ up]\",\"c\":\"green\",\"b\":false,\"i\":false,\"k\":\"run_command:/disklens ./ 1 5\",\"h\":\"Open the parent folder\"}]"
+ },
+ {
+  "name": "plugins: top 5 + \"more\" line",
+  "ok": true,
+  "detail": "━━ plugins/  2.2 GB, 18 files, 22 folders  [↑ up]|Partition: 222 GB used of 238 GB, 15.9 GB free (your hosting quota may differ)|├─ CoreProtect/  1.4 GB (64.3%)  1 f.|├─ Dynmap/  700 MB (31.0%)  1 f.|├─ WorldEdit/  48.0 MB (2.1%)  1 f.|├─ .paper-remapped/  33.3 MB (1.5%)  7 f.|├─ Essentials/  24.0 MB (1.1%)  1 f.|└─ … 4 more (84.3 KB, 0.0%)|Scan: 1 s ago, took 0.1 s, access errors: 0, skipped links: 0  [Rescan] [Report to file]"
+ },
+ {
+  "name": "plugins: CoreProtect first",
+  "ok": true
+ },
+ {
+  "name": "files: title gold",
+  "ok": true,
+  "detail": "[{\"t\":\"━━ Largest files on the server (5 of 4 263, total 18.3 GB)\",\"c\":\"gold\",\"b\":false,\"i\":false,\"k\":null,\"h\":null}]"
+ },
+ {
+  "name": "files: 5 rows, biggest first",
+  "ok": true,
+  "detail": "━━ Largest files on the server (5 of 4 263, total 18.3 GB)|  1. 3.4 GB  backups/world-2024-06-01.zip|  2. 3.3 GB  backups/world-2024-05-15.zip|  3. 3.1 GB  backups/world-2024-05-01.zip|  4. 1.4 GB  plugins/CoreProtect/database.db|  5. 900 MB  bluemap/web/maps/world/hires/lod.json|Scan: 2 s ago, took 0.1 s, access errors: 0, skipped links: 0  [Rescan] [Report to file]"
+ },
+ {
+  "name": "files: paths white",
+  "ok": true
+ },
+ {
+  "name": "status: cached result",
+  "ok": true,
+  "detail": "[\"No scan is running. Cached result from 3 s ago: 18.3 GB, 4 263 files.\"]"
+ },
+ {
+  "name": "rescan: result delivered",
+  "ok": true
+ },
+ {
+  "name": "ru: header \"корень сервера\"",
+  "ok": true,
+  "detail": "━━ ./ (корень сервера)  18.3 ГБ, 4 263 файлов, 621 папок|Раздел: занято 222 ГБ из 238 ГБ, свободно 15.9 ГБ (лимит хостинга может отличаться)|├─ backups/  10.0 ГБ (54.7%)  4 ф.|│  ├─ world-2024-06-01.zip  3.4 ГБ (34.2%)|│  ├─ world-2024-05-15.zip  3.3 ГБ (32.7%)|│  ├─ world-2024-05-01.zip  3.1 ГБ (31.3%)|│  └─ plugins-2024-06-01.zip  180 МБ (1.8%)|├─ bluemap/  2.9 ГБ (15.7%)  66 ф.|│  └─ web/  2.9 ГБ (100.0%)  66 ф.|├─ plugins/  2.2 ГБ (12.0%)  18 ф.|│  ├─ CoreProtect/  1.4 ГБ (64.3%)  1 ф.|│  ├─ Dynmap/  700 МБ (31.0%)  1 ф.|│  ├─ WorldEdit/  48.0 МБ (2.1%)  1 ф.|│  ├─ .paper-remapped/  33.3 МБ (1.5%)  7 ф.|│  ├─ Essentials/  24.0 МБ (1.1%)  1 ф.|│  ├─ DiskLens-2.0.0.jar  73.1 КБ (0.0%)|│  ├─ DiskLens/  10.1 КБ (0.0%)  3 ф.|│  ├─ spark/  702 Б (0.0%)  2 ф.|│  └─ bStats/  337 Б (0.0%)  1 ф.|├─ world/  1.9 ГБ (10.3%)  4 ф.|│  └─ region/  1.9 ГБ (100.0%)  4 ф.|├─ logs/  940 МБ (5.0%)  16 ф.|│  ├─ debug.log  310 МБ (33.0%)|│  ├─ 2024-06-01-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-02-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-03-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-04-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-05-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-06-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-07-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-08-1.log.gz  45.0 МБ (4.8%)|│  ├─ 2024-06-09-1.log.gz  45.0 МБ (4.8%)|│  └─ … ещё 6 (225 МБ, 23.9%)|├─ world_nether/  220 МБ (1.2%)  1 ф.|│  └─ region/  220 МБ (100.0%)  1 ф.|├─ libraries/  72.8 МБ (0.4%)  114 ф.|│  ├─ it/  22.9 МБ (31.4%)  1 ф.|│  ├─ org/  22.7 МБ (31.1%)  39 ф.|│  ├─ com/  10.4 МБ (14.3%)  19 ф.|│  ├─ io/  7.5 МБ (10.3%)  23 ф.|│  ├─ net/  4.5 МБ (6.2%)  24 ф.|│  ├─ me/  2.9 МБ (4.0%)  2 ф.|│  ├─ at/  667 КБ (0.9%)  1 ф.|│  ├─ commons-io/  551 КБ (0.7%)  1 ф.|│  ├─ commons-codec/  352 КБ (0.5%)  1 ф.|│  ├─ commons-lang/  278 КБ (0.4%)  1 ф.|│  └─ … ещё 2 (221 КБ, 0.3%)|├─ cache/  53.7 МБ (0.3%)  1 ф.|│  └─ mojang_1.21.11.jar  53.7 МБ (100.0%)|├─ paper.jar  52.3 МБ (0.3%)|├─ versions/  28.2 МБ (0.2%)  1 ф.|│  └─ 1.21.11/  28.2 МБ (100.0%)  1 ф.|└─ … ещё 18 (29.3 КБ, 0.0%)|Скан: 4 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0  [Пересканировать] [Отчёт в файл]"
+ },
+ {
+  "name": "ru: units ГБ/МБ",
+  "ok": true
+ },
+ {
+  "name": "ru: buttons [Пересканировать]/[Отчёт в файл]",
+  "ok": true
+ }
+]

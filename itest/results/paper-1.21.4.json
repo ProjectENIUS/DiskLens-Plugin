@@ -1,0 +1,167 @@
+{
+ "case": "paper-1.21.4",
+ "checks": [
+  [
+   "server started",
+   "PASS",
+   "no 'Done (' in log"
+  ],
+  [
+   "plugin enabled",
+   "PASS",
+   ""
+  ],
+  [
+   "platform detected",
+   "PASS",
+   [
+    "Platform: Paper 1.21.4-232-12d8fe0 (MC: 1.21.4)"
+   ]
+  ],
+  [
+   "config auto-update: keys added",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: user value kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: comment kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: version bumped",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: backup",
+   "PASS",
+   ""
+  ],
+  [
+   "lang files installed",
+   "PASS",
+   ""
+  ],
+  [
+   "console: scan finished",
+   "PASS",
+   ""
+  ],
+  [
+   "console: tree header",
+   "PASS",
+   ""
+  ],
+  [
+   "console: ascii tree + backup found",
+   "PASS",
+   ""
+  ],
+  [
+   "console: no colour codes",
+   "PASS",
+   ""
+  ],
+  [
+   "alias /du works",
+   "PASS",
+   ""
+  ],
+  [
+   "files list",
+   "PASS",
+   ""
+  ],
+  [
+   "export report",
+   "PASS",
+   ""
+  ],
+  [
+   "path guard",
+   "PASS",
+   ""
+  ],
+  [
+   "status (cache)",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: tree",
+   "PASS",
+   "== ./ (server root)  266 MB, 201 files, 359 folders\nPartition: 219 GB used of 238 GB, 19.0 GB free (your hosting quota m"
+  ],
+  [
+   "rcon: plain text",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: files",
+   "PASS",
+   "== Largest files on the server (2 of 201, total 266 MB)\n  1. 54.2 MB  cache/mojang_1.21.4.jar\n  2. 49.1 MB  server.jar\nS"
+  ],
+  [
+   "rcon: path guard",
+   "PASS",
+   "You can't leave the server folder.\n"
+  ],
+  [
+   "reload",
+   "PASS",
+   ""
+  ],
+  [
+   "russian output",
+   "PASS",
+   ""
+  ],
+  [
+   "plugman unload",
+   "PASS",
+   ""
+  ],
+  [
+   "alias gone after unload",
+   "PASS",
+   ""
+  ],
+  [
+   "plugman load",
+   "PASS",
+   ""
+  ],
+  [
+   "fresh state after load",
+   "PASS",
+   ""
+  ],
+  [
+   "alias back after load",
+   "PASS",
+   ""
+  ],
+  [
+   "unload during scan",
+   "PASS",
+   ""
+  ],
+  [
+   "no DiskLens errors in log",
+   "PASS",
+   []
+  ],
+  [
+   "clean shutdown",
+   "PASS",
+   ""
+  ]
+ ]
+}

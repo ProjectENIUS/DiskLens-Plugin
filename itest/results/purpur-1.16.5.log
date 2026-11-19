@@ -1,0 +1,189 @@
+[23:35:49] [main/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[23:35:50] [main/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[23:35:50] [main/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[23:35:50] [main/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[23:35:50] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:35:50] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[23:35:50] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[23:35:51] [Worker-Main-6/INFO]: Loaded 7 recipes
+[23:35:52] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[23:35:52] [Server thread/INFO]: Loading properties
+[23:35:52] [Server thread/INFO]: This server is running Purpur version git-Purpur-1171 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[23:35:52] [Server thread/INFO]: Debug logging is disabled
+[23:35:52] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:35:52] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:35:52] [Server thread/INFO]: Default game type: SURVIVAL
+[23:35:52] [Server thread/INFO]: Generating keypair
+[23:35:52] [Server thread/INFO]: Starting Minecraft server on *:25608
+[23:35:52] [Server thread/INFO]: Using default channel type
+[23:35:52] [Server thread/INFO]: Tuinity: Using Java compression from Velocity.
+[23:35:52] [Server thread/INFO]: Tuinity: Using Java cipher from Velocity.
+[23:35:53] [Server thread/INFO]: [PlugManX] Loading 3 libraries... please wait
+[23:35:54] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5\libraries\com\fasterxml\jackson\core\jackson-databind\2.13.5\jackson-databind-2.13.5.jar
+[23:35:54] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5\libraries\com\fasterxml\jackson\core\jackson-core\2.13.5\jackson-core-2.13.5.jar
+[23:35:54] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5\libraries\com\fasterxml\jackson\core\jackson-annotations\2.13.5\jackson-annotations-2.13.5.jar
+[23:35:54] [Server thread/ERROR]: Fatal error trying to convert PlugManX v3.0.2:bukkit/com/rylinaux/plugman/PlugManBukkit.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:196) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:177) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:163) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.util.Commodore.convert(Commodore.java:171) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:384) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:178) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_351]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:353) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:279) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+[23:35:54] [Server thread/ERROR]: Could not load 'plugins\PlugManX.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: bukkit/com/rylinaux/plugman/PlugManBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:157) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:414) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:353) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:393) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:279) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:1074) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$a$0(MinecraftServer.java:293) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_351]
+Caused by: java.lang.UnsupportedClassVersionError: bukkit/com/rylinaux/plugman/PlugManBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:1.8.0_351]
+	at java.lang.ClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at java.security.SecureClassLoader.defineClass(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:201) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:119) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:114) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at java.lang.ClassLoader.loadClass(Unknown Source) ~[?:1.8.0_351]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_351]
+	at java.lang.Class.forName(Unknown Source) ~[?:1.8.0_351]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:82) ~[patched_1.16.5.jar:git-Purpur-1171]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:153) ~[patched_1.16.5.jar:git-Purpur-1171]
+	... 7 more
+[23:35:54] [Server thread/INFO]: [DiskLens] Loading DiskLens v2.0.0
+[23:35:54] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:35:54] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:35:54] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:35:54] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:35:54] [Server thread/WARN]: You will not be offered any support as long as the server allows offline-mode players to join.
+[23:35:54] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:35:54] [Server thread/INFO]: Preparing level "world"
+[23:35:54] [Server thread/WARN]: Unable to find spawn biome
+[23:35:56] [Server thread/WARN]: Unable to find spawn biome
+[23:35:57] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:35:57] [Worker-Main-1/INFO]: Preparing spawn area: 2%
+[23:35:57] [Server thread/INFO]: Time elapsed: 39 ms
+[23:35:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:35:57] [Worker-Main-3/INFO]: Preparing spawn area: 61%
+[23:35:57] [Server thread/INFO]: Time elapsed: 25 ms
+[23:35:57] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:35:57] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[23:35:57] [Server thread/INFO]: Time elapsed: 44 ms
+[23:35:57] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[23:35:57] [Server thread/INFO]: [DiskLens] config.yml: +[language, default-language, command-aliases, default-depth, default-top, files-per-folder, largest-files, max-chat-lines, max-console-lines, console-ascii-tree, report-ascii-tree, progress-log-seconds]
+[23:35:57] [Server thread/INFO]: [DiskLens] Platform: Purpur git-Purpur-1171 (MC: 1.16.5)
+[23:35:57] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5
+[23:35:57] [Server thread/INFO]: Starting remote control listener
+[23:35:57] [Server thread/INFO]: Thread RCON Listener started
+[23:35:57] [Server thread/INFO]: RCON running on 0.0.0.0:25708
+[23:35:57] [Server thread/INFO]: Running delayed init tasks
+[23:35:57] [Server thread/INFO]: Done (5.208s)! For help, type "help"
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * WARNING - YOU ARE RUNNING AN OUTDATED VERSION OF JAVA.
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * PAPER WILL STOP BEING COMPATIBLE WITH THIS VERSION OF
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * JAVA WHEN MINECRAFT 1.17 IS RELEASED.
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Please update the version of Java you use to run Paper
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * to at least Java 16. When Paper for Minecraft 1.17 is
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * released support for versions of Java before 16 will
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * be dropped.
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Current Java version: 1.8.0_351
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] * Check this forum post for more information: 
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] *   https://papermc.io/java16
+[23:35:57] [Server thread/WARN]: [io.papermc.paper.util.PaperJvmChecker] ************************************************************
+[23:35:57] [Server thread/INFO]: Timings Reset
+[23:35:57] [Server thread/INFO]: Scanning the server folder in the background, this may take a while…
+[23:35:57] [Server thread/INFO]: [DiskLens] Scan started: P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: [DiskLens] Scan finished: 63 files, 182 MB in 15 ms, access errors: 0, skipped links: 0
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == ./ (server root)  182 MB, 63 files, 43 folders
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Partition: 221 GB used of 238 GB, 17.0 GB free (your hosting quota may differ)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- cache/  96.7 MB (53.0%)  2 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- patched_1.16.5.jar  60.5 MB (62.5%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- mojang_1.16.5.jar  36.2 MB (37.5%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- server.jar  53.4 MB (29.3%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- backups/  30.0 MB (16.4%)  1 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- old-backup.zip  30.0 MB (100.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- libraries/  2.0 MB (1.1%)  27 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- com/  2.0 MB (100.0%)  27 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- plugins/  341 KB (0.2%)  7 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- PlugManX.jar  257 KB (75.5%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- DiskLens-2.0.0.jar  73.1 KB (21.5%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- DiskLens/  9.9 KB (2.9%)  4 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- bStats/  336 B (0.1%)  1 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- purpur.yml  24.1 KB (0.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- logs/  11.5 KB (0.0%)  1 f.
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- latest.log  11.5 KB (100.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- paper.yml  8.4 KB (0.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- spigot.yml  4.3 KB (0.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- help.yml  2.5 KB (0.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: \- ... 16 more (3.9 KB, 0.0%)
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:35:57] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == backups/  30.0 MB, 1 files, 0 folders
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Partition: 221 GB used of 238 GB, 17.0 GB free (your hosting quota may differ)
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: \- old-backup.zip  30.0 MB (100.0%)
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Rescan: /disklens backups/ -r   Report to file: /disklens export backups/
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == Largest files on the server (10 of 63, total 182 MB)
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   1. 60.5 MB  cache/patched_1.16.5.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   2. 53.4 MB  server.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   3. 36.2 MB  cache/mojang_1.16.5.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   4. 30.0 MB  backups/old-backup.zip
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   5. 1.5 MB  libraries/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   6. 366 KB  libraries/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   7. 257 KB  plugins/PlugManX.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   8. 73.9 KB  libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   9. 73.1 KB  plugins/DiskLens-2.0.0.jar
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]:  10. 24.1 KB  purpur.yml
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:35:58] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:35:59] [Craft Scheduler Thread - 3 - DiskLens/INFO]: [DiskLens] Report written: P:\FoliaRust\DiskUsagePlugin\itest\servers\purpur-1.16.5\plugins\DiskLens\reports\report-20261119-233559.txt
+[23:35:59] [Server thread/INFO]: You can't leave the server folder.
+[23:36:00] [Server thread/INFO]: No scan is running. Cached result from 2 s ago: 182 MB, 63 files.
+[23:36:00] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[23:36:00] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[23:36:00] [Server thread/INFO]: Конфиг и языки DiskLens перезагружены.
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == ./ (корень сервера)  182 МБ, 63 файлов, 43 папок
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Раздел: занято 221 ГБ из 238 ГБ, свободно 17.0 ГБ (лимит хостинга может отличаться)
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- cache/  96.7 МБ (53.0%)  2 ф.
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: \- ... ещё 25 (85.8 МБ, 47.0%)
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Скан: 3 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0
+[23:36:01] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[23:36:01] [Server thread/INFO]: Stopping the server
+[23:36:01] [Server thread/INFO]: Stopping server
+[23:36:01] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[23:36:01] [Server thread/INFO]: Saving players
+[23:36:01] [Server thread/INFO]: Saving worlds
+[23:36:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:36:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:36:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:36:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:36:02] [Server thread/INFO]: Flushing Chunk IO
+[23:36:02] [Server thread/INFO]: Closing Thread Pool
+[23:36:02] [Server thread/INFO]: Closing Server

@@ -1,0 +1,264 @@
+[21:49:47] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Azul Systems, Inc. Zulu21.40+17-CA) on Windows 11 10.0 (amd64)
+[21:49:47] [ServerMain/INFO]: [bootstrap] Loading Folia 1.21.11-DEV-rust-natives@9681cbc (1970-01-01T00:00:00Z) for Minecraft 1.21.11
+[21:49:48] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:49:50] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
+[21:49:57] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 7150ms.
+[21:49:57] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\DiskLens-2.0.0.jar'...
+[21:49:57] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DiskLens-2.0.0.jar' in 190ms.
+[21:49:58] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
+[21:49:59] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=HNclicBpD4ECe23idjtbR3P4BzPOtSuvjLjeLr7nhc8-1795117799.3705723-1.0.1.1-u65aG__6Yp5SlxBXCpaAn.S5S_hnTAiZwZEdJ.qKBuqt6Hzkh28m0zWdPOXJ_CWDxvTJ2LNYx6YrQrSxvbijbYj2WEPSytZbrGf4kNKYfMybsLQCC.dh44zOJJ7KVGEK; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:19:59 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:19:59 GMT
+[21:49:59] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=27ZVsJLHjbPK6_TyKf0vW46PhsGURu5Eblfu6qjO.5o-1795117799.4191473-1.0.1.1-9Waby5Y9TuXRYk3vHYEO2t7kM_Epio4trSd.9hYFT4o.uiG4_5YWjFCSJd5Egu_Aw8jxpzLTL0B0xjP6LeEzGBosjSpoHVBZIDgdBkY8ICNtTtbXXny7HbohvZtX25xd; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:19:59 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:19:59 GMT
+[21:49:59] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom
+[21:49:59] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=909FdM1bTpEXW_zoAOYoeK6cIk0b.xp7cLSX4hnyEgw-1795117799.8915262-1.0.1.1-JT.L1ZHGJemXv6na7Fqf2Bk5ipqwyf6xwATaZtyVyj8KbgabYY874nkPTUq_Ldh3i4C.GSmzdeDrKvaj.krHpumlLvwce3iN3eABmRLx26FAEa0bHFD4jevClRTtmWAz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:19:59 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:19:59 GMT
+[21:49:59] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=xtSAWdZVEDy6isvKP9NFNx2hr1d0t7bU3_Tp0pW9sxc-1795117799.9104016-1.0.1.1-Jl8jYPd2LD4CHIFsB8H3qek74g73QXVOwHwXP9YRzjl7ISXTzXUE4qPK64u7D4GrDTIHLLHYcDcsBW0n0nmQ2NVWVGxlRkac6BdC0E0JnWV88w9fSAZXuZp1XlHF1WVz; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:19:59 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:19:59 GMT
+[21:49:59] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=h2UUKjZMVvgEi0zxRlrUX3drkuOB_ZQAtRI_JOr8sm0-1795117800.138277-1.0.1.1-yU0rjJT.nIvpFOOVSajY59KX1PdBipXEdBylhSoKxGn6o5LC288sjF3Wjs7zkOiTauVpDADIwyjHR7WVDzPVTHDk6Y3kz4v5I12AY3wp19uC5zvgS4Yoa4FUflnUyoXi; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=21IE2eygLeCVU5mdKnFMrI5uFYTa4prOqAbOPfDrQO0-1795117800.1511385-1.0.1.1-A7LoM12RV_X1LfmhKFirVglQbhc4fG81nqdcic1jrgMN25rTFQbJ1GQnV0tgonyyKOZuMZgk0kJH0IfNVhA7omQeik1dMd2ZRYcHcbmziIxo.rhYt7fN60.wLGbO8Cjq; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=e0gi7TLxleDAGWOciPzAuHaQ4t0vQfc08H9nVWk40mo-1795117800.34959-1.0.1.1-8G4wr87vx4AoXsRwgndptKJDOZe2ef4fXN7Jyylh3YYGT3KVmthQw85tVtMJhssTsZtFIfwE3xuUBQ6Ig4Rn5uOid5YG.xGb9_WtwrVl5vhRPVcSww1EIJ6rn11OqvVK; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=niHo086CcCM6yhgvnPKsQi9pBlTJZGHJXIlZ996xi78-1795117800.3643-1.0.1.1-BGRvE4WqIzQ54_stJhORfhnQ96l2ClspHnhcXdt7cxUYSxs3TF7SIS1k9.IU6y1Os3pOxs48YHoy4aX6IvR0r2mkU6wv63cb0CJOo2GL7AuIxEjE13rlZEeuFjAqu8RH; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/oss-parent/43/oss-parent-43.pom
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=.P391AasewGIh8a_dWM7i4ioCcJFj.BRZKEWXdkzeN0-1795117800.567046-1.0.1.1-1OFA6lV_UGQr9VQN04FQ5JKrT9ytbBFEzPXOAbLA5gcrAu6HndHbjMbf2BCMXncS4oipH0Mu9pc8wo6d218SD8aPvQrRBlhA44aWwrw8RJAP5JJmEGLARC1XTGU0ytJp; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=6G1slNc1erB8iQY0htXEWzba0CxU_LLmB3yGPnrmO2A-1795117800.5828476-1.0.1.1-9oXthTen..LEMbPf7kbyneiCdyGwc9.wJqSEibfVLw3WvzwPRGWcwfHC3QQth_dBj1BM5llKx2YVFU6iEnFyShSm87zV3LKZTih296Ly47Jd8UjUytKo5HO_tuDDGJun; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=fUVNPYAJVO6jV0eTdr3IqSOCsTju89E43HPb_qlX8cY-1795117800.8374207-1.0.1.1-Kvg2Owt1.6xLIj406wkpkRSYZCBTlPcMxPsaQ_WEvbMGGfuqxf1erjOhpT6v6yJeaitH.G9qCXi7RH7u8lauQr8zLHG5Wfb91LHc.9TykJWhwgBvun1stEVsoC5GREMs; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=t.v1mZ9a7rSNyMlYBw7P2fvJnA0KTS964d.aTvXNCDs-1795117800.848881-1.0.1.1-clGUT.dCy6zYUy6TIkBW53sPJhlSU4qRtfAsgZeTaVtPdkGES8CBHtbaeXBGx8tIqPM144Zws3MBDLE0s8AFKWZ7c3UWzlAWuDeVzujZV_zdRGJpMdJCV_5KptuKsCt7; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:00 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:00 GMT
+[21:50:00] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom
+[21:50:01] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=fYqz4SPmgU2pba.zOJobBy9gPKuAGTeW57QGtSo.u1g-1795117801.043754-1.0.1.1-gFS.CCJBwEIQq2RG.rn9veDs.GMTdHGvArWS3CLhV_TvhHNZv40Ze7AMfqGhBW410ir96B6CxTUcOfZGt6fQRnSxDbcWfGeKx0OdTDneRXsxZJFTL9qIHMXWAS0V7N_x; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=cxKSR2OLamp89az7LmWaFrbNDvyNpzHQu.T4wUyL_7o-1795117801.0604577-1.0.1.1-R9ArZjOFNBDGjVEFtpRFRm3wauYxdic6yQtwD3lIvpdnsyxDcY1d86_80QvnnZlYfeDi.sLGtezBapf3yoSJfd7yaSe76ASuDcmZw815k8plqB3OY0_ilNKkRNh06mhE; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [ServerMain/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar
+[21:50:01] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=b88Pys_ZoNOO4XTg6l.VdKs5VbD71bkHbfTxKr9aAhE-1795117801.2722926-1.0.1.1-LrFIP5poqd..Y0Gs9.Sw8G4ewa.HQhXSDN0884bkEGi8e.eFOzm_TjoqMHLStfQ81tdBxk0FCNjI9.SJg2GUQ3QsR2mKQ_IV8Yb0CT.aLkVIUPeti3kIvwAwEuerpWUC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [ServerMain/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=uSI9mWV.U5zcKeQ3ghOv6kbBHtU7nfc3eaXVB9.NkBY-1795117801.2883093-1.0.1.1-rz6yjq5eLTCG1khKuykLvPltG8YFu8EbvmREic_BOZDPh3T.DdC7LdqSPJCBlKK3QEjv5jN.oyhvcV7pQI4Dv7xmcTdLIPDWF6aDrv0DX5rm17P3rmvFiIYw0Jb.G23X; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-0/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-1/INFO]: [MavenLibraryResolver] Downloading https://oss.sonatype.org/content/repositories/releases/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-0/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=WX1BJbMFAdKWjvqbblfZhJVCBuLzoDBXXPKjxlMr4RU-1795117801.5911589-1.0.1.1-IObN.Aq7ufcqVci30kSKMIIXPZ_I.ePLLYqQ7MiBDYC7fPFUfDWPfolIb..hLFUQNYBk6nIpVU6DBVrVLJ.RmYZnKADVCE1K71HOzfPmjpjwEmkmSVBHcDVCGlXrvXpC; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-0/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=l3iFtPDIjT76uD51p2qZc2ebXSr2Js48wulciEkMISE-1795117801.6043487-1.0.1.1-2TcV9cpcbROl45ozAqf2vlspdubjWl1m3CBzfuih.GatyA1fOw7HLYRZLuuDJDsKIbJejsbf65_YhcNHzxtrjUlswKfKV2MJkT4xER09ebEWKr.kp7B4fGYswO6bMoJF; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-1/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=yGGvR3l5YCCZ4fc7vFo8f1MJqov4U1_Ojhvkcl6tT_0-1795117801.622931-1.0.1.1-HBu6ozZfa8vgvgqFHD38eIxIe9ffAHWOmBsNBmmSUaE3PCONiZ1oQrs4AYd6AKZGlEvHStQTT1FdzHqGqLFT6pMofA5kfhCtd_D12mj2IKYDiwA01v5JnDskbqsDEKzr; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [BasicRepositoryConnector-oss.sonatype.org-0-1/WARN]: [org.apache.http.client.protocol.ResponseProcessCookies] Invalid cookie header: "set-cookie: __cf_bm=Dw.5emdKB0WKXYLN5Ef_zA4at04BJ2DTj2InEeqxa_Q-1795117801.640289-1.0.1.1-mHZ2Z8YiwemouXbYjRLipGoDoZv5a8nJbi2etlHQfHo3VQXelTK4fhQG1jnA4jXEUjwdJ1pftu9V9GxsbwRrx0y_xATRZXMoRU_GsdMe9LHE9dDXv7VEOYhhaVaR_LEU; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=maven.org; Expires=Thu, 19 Nov 2026 20:20:01 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 20:20:01 GMT
+[21:50:01] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[21:50:01] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - PlugManX (3.0.2)
+[21:50:01] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - DiskLens (2.0.0)
+[21:50:09] [ServerMain/ERROR]: You have used the Spigot command line EULA agreement flag.
+[21:50:09] [ServerMain/ERROR]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[21:50:09] [ServerMain/ERROR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[21:50:09] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:50:09] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[21:50:09] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[21:50:10] [ServerMain/INFO]: No existing world data, creating new world
+[21:50:10] [ServerMain/ERROR]: No key layers in MapLike[{}]
+[21:50:12] [ServerMain/INFO]: Loaded 1470 recipes
+[21:50:12] [ServerMain/INFO]: Loaded 1584 advancements
+[21:50:12] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:50:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 600,6ms
+[21:50:13] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:50:13] [Server thread/INFO]: Loading properties
+[21:50:13] [Server thread/INFO]: This server is running Folia version 1.21.11-DEV-rust-natives@9681cbc (1970-01-01T00:00:00Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[21:50:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:50:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:50:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:50:13] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[21:50:13] [Server thread/INFO]: [io.papermc.paper.threadedregions.TickRegions] Initialised EDF Folia scheduler with initial 1 target thread(s)
+[21:50:14] [Server thread/INFO]: Default game type: SURVIVAL
+[21:50:14] [Server thread/INFO]: Generating keypair
+[21:50:14] [Server thread/INFO]: Starting Minecraft server on *:25614
+[21:50:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:50:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:50:14] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.2
+[21:50:14] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:50:14] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.2
+[21:50:15] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[21:50:15] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[21:50:15] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[21:50:15] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[21:50:15] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[21:50:15] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[21:50:15] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[21:50:15] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:50:15] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:50:15] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:50:15] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:50:15] [Server thread/INFO]: Preparing level "world"
+[21:50:15] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:50:16] [Server thread/INFO]: Selecting spawn point for world 'minecraft:overworld'...
+[21:50:16] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:50:16] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_nether'...
+[21:50:16] [Paper Common Worker #0/INFO]: [RustZlib] [folia-native] library not found, using Java compression (no folia_native in java.library.path: C:\Program Files\Zulu\zulu-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\DonatKauler\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\DonatKauler\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\x64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin;C:\Program Files\Git\usr\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.9\libnvvp;C:\Program Files\Zulu\zulu-21\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files (x86)\IDEMIA\AWP\Dlls;C:\Program Files\IDEMIA\AWP\Dlls;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit;C:\Program Files (x86)\Windows Kits\10\Microsoft Application Virtualization\Sequencer;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Users\DonatKauler\AppData\Local\nvm;C:\nvm4w\nodejs;C:\Program Files\nodejs;C:\Gradle\gradle-8.12.1\bin;C:\Maven\apache-maven-3.9.9\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.2.1;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\platform-tools;C:\platform-tools\cmdline-tools\latest\bin;C:\platform-tools\tools\bin;C:\platform-tools\emulator;C:\Program Files\CMake\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2026.1.1;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Apps\Scoop\apps\mingw\current\bin;C:\Users\DonatKauler\.cargo\bin;D:\Apps\Scoop\apps\python310\current\Scripts;D:\Apps\Scoop\apps\python310\current;D:\Apps\Scoop\apps\python\current\Scripts;D:\Apps\Scoop\apps\python\current;D:\Apps\Scoop\shims;C:\Users\DonatKauler\scoop\shims;C:\Users\DonatKauler\.local\bin;C:\OSPanel\bin;C:\Program Files\7-Zip;C:\Users\DonatKauler\AppData\Local\Thorium\Application;H:\Android\SDK\platform-tools;H:\Android\SDK\cmdline-tools\latest\bin;H:\Android\SDK\tools\bin;H:\Android\SDK\emulator;C:\Users\DonatKauler\AppData\Local\UniGetUI\Chocolatey\bin;C:\Users\DonatKauler\AppData\Local\Microsoft\WindowsApps;C:\Users\DonatKauler\AppData\Roaming\npm;C:\Users\DonatKauler\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.2.1\bin;C:\Users\DonatKauler\.lmstudio\bin;C:\Users\DonatKauler\.dotnet\tools;C:\Users\DonatKauler\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\DonatKauler\AppData\Local\Programs\Ollama;C:\Users\DonatKauler\AppData\Local\Programs\socialstream;P:\Antigravity\bin;C:\Users\DonatKauler\.aftman\bin;C:\Users\DonatKauler\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\DonatKauler\AppData\Local\Microsoft\WinGet\Links;C:\Users\DonatKauler\AppData\Local\GitHubDesktop\bin;C:\Users\DonatKauler\AppData\Local\Programs\Python\Python313;C:\Users\DonatKauler\AppData\Local\Programs\Python\Python310;C:\Program Files\nodejs;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.)
+[21:50:17] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:50:18] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_end'...
+[21:50:18] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[21:50:18] [Server thread/INFO]: Preparing spawn area: 100%
+[21:50:18] [Server thread/INFO]: Prepared spawn area in 2337 ms
+[21:50:18] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[21:50:18] [Server thread/INFO]: Preparing spawn area: 100%
+[21:50:18] [Server thread/INFO]: Prepared spawn area in 1629 ms
+[21:50:18] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[21:50:18] [Server thread/INFO]: Preparing spawn area: 100%
+[21:50:18] [Server thread/INFO]: Prepared spawn area in 371 ms
+[21:50:18] [Server thread/INFO]: Done preparing level "world" (2.703s)
+[21:50:18] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:50:18] [Server thread/INFO]: [DiskLens] config.yml: +[language, default-language, command-aliases, default-depth, default-top, files-per-folder, largest-files, max-chat-lines, max-console-lines, console-ascii-tree, report-ascii-tree, progress-log-seconds]
+[21:50:18] [Server thread/INFO]: [DiskLens] Platform: Folia 1.21.11-DEV-9681cbc (MC: 1.21.11) (Folia schedulers)
+[21:50:18] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:18] [Server thread/INFO]: [spark] The spark plugin has been preferred but was not loaded. The bundled spark profiler will enabled instead.
+[21:50:18] [Server thread/INFO]: [spark] The spark profiler will not be enabled because it is currently disabled in the configuration.
+[21:50:18] [Server thread/INFO]: Starting remote control listener
+[21:50:18] [Server thread/INFO]: Thread RCON Listener started
+[21:50:18] [Server thread/INFO]: RCON running on 0.0.0.0:25714
+[21:50:18] [Server thread/INFO]: Done (32.622s)! For help, type "help"
+[21:50:18] [Folia Region Scheduler Thread #0/INFO]: Scanning the server folder in the background, this may take a while…
+[21:50:18] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Scan started: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: [DiskLens] Scan finished: 207 files, 276 MB in 227 ms, access errors: 0, skipped links: 0
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: == ./ (server root)  276 MB, 207 files, 353 folders
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: Partition: 221 GB used of 238 GB, 17.0 GB free (your hosting quota may differ)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- libraries/  74.8 MB (27.2%)  141 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- it/  22.9 MB (30.5%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- org/  22.7 MB (30.3%)  39 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- com/  12.4 MB (16.5%)  46 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- io/  4.8 MB (6.5%)  22 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- net/  4.5 MB (6.1%)  24 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- me/  2.9 MB (3.9%)  2 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- dev/  2.7 MB (3.6%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- at/  667 KB (0.9%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- commons-io/  551 KB (0.7%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- commons-codec/  352 KB (0.5%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- ... 3 more (499 KB, 0.7%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- cache/  53.7 MB (19.5%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- mojang_1.21.11.jar  53.7 MB (100.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- server.jar  53.5 MB (19.4%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- plugins/  34.0 MB (12.3%)  23 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- .paper-remapped/  33.7 MB (98.9%)  7 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- PlugManX.jar  257 KB (0.7%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- DiskLens-2.0.0.jar  73.1 KB (0.2%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- PlugManX/  32.9 KB (0.1%)  8 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- DiskLens/  9.9 KB (0.0%)  4 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- spark/  585 B (0.0%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- bStats/  337 B (0.0%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- backups/  30.0 MB (10.9%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- old-backup.zip  30.0 MB (100.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- versions/  29.4 MB (10.7%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- 1.21.11/  29.4 MB (100.0%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- logs/  22.5 KB (0.0%)  1 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- latest.log  22.5 KB (100.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- config/  12.8 KB (0.0%)  2 f.
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  +- paper-world-defaults.yml  8.4 KB (65.2%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: |  \- paper-global.yml  4.5 KB (34.8%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- spigot.yml  4.8 KB (0.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: +- help.yml  2.8 KB (0.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: \- ... 15 more (4.7 KB, 0.0%)
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: Scan: 0 s ago, took 0.2 s, access errors: 0, skipped links: 0
+[21:50:19] [Folia Async Scheduler Thread #0/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[21:50:19] [Folia Async Scheduler Thread #1/INFO]: == backups/  30.0 MB, 1 files, 0 folders
+[21:50:19] [Folia Async Scheduler Thread #1/INFO]: Partition: 221 GB used of 238 GB, 17.0 GB free (your hosting quota may differ)
+[21:50:19] [Folia Async Scheduler Thread #1/INFO]: \- old-backup.zip  30.0 MB (100.0%)
+[21:50:19] [Folia Async Scheduler Thread #1/INFO]: Scan: 0 s ago, took 0.2 s, access errors: 0, skipped links: 0
+[21:50:19] [Folia Async Scheduler Thread #1/INFO]: Rescan: /disklens backups/ -r   Report to file: /disklens export backups/
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]: == Largest files on the server (10 of 207, total 276 MB)
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   1. 53.7 MB  cache/mojang_1.21.11.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   2. 53.5 MB  server.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   3. 30.0 MB  backups/old-backup.zip
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   4. 29.4 MB  versions/1.21.11/folia-1.21.11.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   5. 27.2 MB  plugins/.paper-remapped/remap-classpath/8AEF18E8265572D0C6835B5789649B1E0A6D5F7F62EC44F08138BE3573D5AD49.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   6. 22.9 MB  libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   7. 13.7 MB  libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   8. 6.4 MB  plugins/.paper-remapped/mappings/reversed/8AEF18E8265572D0C6835B5789649B1E0A6D5F7F62EC44F08138BE3573D5AD49.tiny
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:   9. 2.9 MB  libraries/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]:  10. 2.9 MB  libraries/me/lucko/spark-paper/1.10.152/spark-paper-1.10.152.jar
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]: Scan: 0 s ago, took 0.2 s, access errors: 0, skipped links: 0
+[21:50:19] [Folia Async Scheduler Thread #2/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[21:50:20] [Folia Async Scheduler Thread #3/INFO]: [DiskLens] Report written: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11\plugins\DiskLens\reports\report-20261119-215020.txt
+[21:50:20] [Folia Region Scheduler Thread #0/INFO]: You can't leave the server folder.
+[21:50:21] [Folia Region Scheduler Thread #0/INFO]: No scan is running. Cached result from 2 s ago: 276 MB, 207 files.
+[21:50:21] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[21:50:22] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[21:50:22] [Folia Region Scheduler Thread #0/INFO]: Конфиг и языки DiskLens перезагружены.
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: == ./ (корень сервера)  276 МБ, 207 файлов, 353 папок
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: Раздел: занято 221 ГБ из 238 ГБ, свободно 17.0 ГБ (лимит хостинга может отличаться)
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: +- libraries/  74.8 МБ (27.2%)  141 ф.
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: \- ... ещё 24 (201 МБ, 72.8%)
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: Скан: 3 с назад за 0.2 с, ошибок доступа: 0, пропущено ссылок: 0
+[21:50:22] [Folia Async Scheduler Thread #3/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[21:50:23] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:50:23] [Folia Region Scheduler Thread #0/INFO]: [PlugManX] Successfully removed provider for plugin: DiskLens
+[21:50:23] [Folia Region Scheduler Thread #0/INFO]: [PlugMan] DiskLens has been unloaded.
+[21:50:23] [Folia Region Scheduler Thread #0/INFO]: Unknown or incomplete command. See below for error
+du<--[HERE]
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [PlugManX] Attempting to load plugins\DiskLens-2.0.0.jar
+[21:50:24] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\DiskLens-2.0.0.jar'...
+[21:50:24] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DiskLens-2.0.0.jar' in 302ms.
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Платформа: Folia 1.21.11-DEV-9681cbc (MC: 1.21.11) (Folia schedulers)
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Корень сервера: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:24] [Folia Region Scheduler Thread #0/INFO]: [PlugMan] DiskLens-2.0.0 has been loaded and enabled.
+[21:50:26] [Folia Region Scheduler Thread #0/INFO]: Сканирование не идёт. Кеш пуст.
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: Сканирую папку сервера в фоне, это может занять время…
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Сканирование запущено: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: [DiskLens] Сканирование завершено: 209 файлов, 276 МБ за 27 мс, ошибок доступа: 0, пропущено ссылок: 0
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: == ./ (корень сервера)  276 МБ, 209 файлов, 354 папок
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: Раздел: занято 221 ГБ из 238 ГБ, свободно 17.0 ГБ (лимит хостинга может отличаться)
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: +- libraries/  74.8 МБ (27.1%)  141 ф.
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: \- ... ещё 24 (201 МБ, 72.9%)
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: Скан: 0 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: Сканирую папку сервера в фоне, это может занять время…
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Сканирование запущено: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:50:27] [Folia Async Scheduler Thread #3/INFO]: [DiskLens] Сканирование отменено.
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: [PlugManX] Successfully removed provider for plugin: DiskLens
+[21:50:27] [Folia Region Scheduler Thread #0/INFO]: [PlugMan] DiskLens has been unloaded.
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [PlugManX] Attempting to load plugins\DiskLens-2.0.0.jar
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Платформа: Folia 1.21.11-DEV-9681cbc (MC: 1.21.11) (Folia schedulers)
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [DiskLens] Корень сервера: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-local-1.21.11
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: [PlugMan] DiskLens-2.0.0 has been loaded and enabled.
+[21:50:28] [Folia Region Scheduler Thread #0/INFO]: Stopping the server
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Awaiting scheduler termination for 60s...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Scheduler halted
+[21:50:28] [Region shutdown thread/INFO]: Stopping server
+[21:50:28] [Region shutdown thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:50:28] [Region shutdown thread/INFO]: [PlugManX] Disabling PlugManX v3.0.2
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Halting chunk systems...
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:50:28] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Halted chunk systems
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Finishing pending teleports...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Finished pending teleports
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving all worlds
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving world data for world 'world'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closing player inventories...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closed player inventories
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved chunks
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving level data...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved level data
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved world data for world 'world'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving world data for world 'world_nether'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closing player inventories...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closed player inventories
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved chunks
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving level data...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved level data
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved world data for world 'world_nether'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving world data for world 'world_the_end'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closing player inventories...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Closed player inventories
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved chunks
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving level data...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved level data
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved world data for world 'world_the_end'
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved all worlds
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving all player data...
+[21:50:28] [Region shutdown thread/INFO]: [RegionShutdownThread] Saved all player data
+[21:50:28] [Region shutdown thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:50:28] [Region shutdown thread/INFO]: All RegionFile I/O tasks to complete
+[21:50:28] [Region shutdown thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:50:28] [Region shutdown thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DiskLens page-header banner, 1200x300. Icon (scaled master) + wordmark. Light background. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <title>DiskLens banner</title>
+  <rect x="0" y="0" width="1200" height="300" fill="#F3F6FA"/>
+  <!-- Icon: master icon scaled to 256 px, placed at x=22, y=22 -->
+  <g transform="translate(22 22) scale(0.5)">
+    <rect x="0" y="0" width="512" height="512" rx="96" ry="96" fill="#1F2937"/>
+    <circle cx="216" cy="216" r="128" fill="#2B3A4E"/>
+    <line x1="318" y1="318" x2="424" y2="424" stroke="#F5A524" stroke-width="58" stroke-linecap="round"/>
+    <circle cx="216" cy="216" r="128" fill="none" stroke="#F4F6F8" stroke-width="34"/>
+    <rect x="128" y="160" width="168" height="28" rx="6" fill="#F5A524"/>
+    <rect x="128" y="204" width="128" height="28" rx="6" fill="#4FC3F7"/>
+    <rect x="128" y="248" width="80" height="28" rx="6" fill="#6EE7B7"/>
+  </g>
+  <!-- Wordmark: system sans-serif (no embedded or external fonts) -->
+  <text x="318" y="170" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="128" font-weight="700" fill="#1F2937">DiskLens</text>
+  <text x="322" y="225" font-family="'Segoe UI', Arial, Helvetica, sans-serif" font-size="34" font-weight="400" fill="#4B5563">Which folders eat your disk</text>
+</svg>

@@ -1,0 +1,45 @@
+# ==========================================================
+#  DiskLens — what takes up disk space on your server
+#  Missing options are added to this file automatically on
+#  update (a backup is saved as config.yml.bak).
+# ==========================================================
+
+# Do not edit: used to update this file.
+config-version: 2
+
+# Language for players: "auto" = the player's client language, or a code such as "en", "ru".
+# Translations live in plugins/DiskLens/lang/<code>.yml; add your own file to add a language.
+language: auto
+
+# Language for the console, RCON and players whose language is not available ("auto" = system language).
+default-language: en
+
+# Short command aliases in addition to /disklens. Use [] to disable them.
+# Applied on server start / plugin load.
+command-aliases: [du]
+
+# How many minutes a scan result is kept (repeated commands and clicks are instant).
+cache-minutes: 5
+
+# Defaults for /disklens [path] [depth] [topN]
+default-depth: 2
+default-top: 10
+
+# How many of the largest files are kept per folder (the rest are collapsed into "N more").
+files-per-folder: 50
+
+# How many of the largest files on the whole server are kept for /disklens files and the report.
+largest-files: 100
+
+# Line limits for one output (anything bigger: /disklens export).
+max-chat-lines: 250
+max-console-lines: 1000
+
+# Draw the console tree with ASCII characters (+- \- |) so it is readable in every hosting panel.
+console-ascii-tree: true
+
+# Same for the report file (UTF-8 box-drawing lines by default).
+report-ascii-tree: false
+
+# How often scan progress is written to the server log (seconds).
+progress-log-seconds: 5

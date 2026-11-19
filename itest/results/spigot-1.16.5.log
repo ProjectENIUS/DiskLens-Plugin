@@ -1,0 +1,336 @@
+[23:41:06] [main/ERROR]: No key layers in MapLike[{}]; No key structures in MapLike[{}]
+[23:41:06] [main/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[23:41:06] [main/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[23:41:06] [main/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[23:41:06] [main/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:41:07] [main/INFO]: Found new data pack file/bukkit, loading it automatically
+[23:41:07] [main/INFO]: Reloading ResourceManager: Default, bukkit
+[23:41:09] [Worker-Main-9/INFO]: Loaded 7 recipes
+[23:41:12] [Server thread/INFO]: Starting minecraft server version 1.16.5
+[23:41:12] [Server thread/INFO]: Loading properties
+[23:41:13] [Server thread/INFO]: This server is running CraftBukkit version 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5) (Implementing API version 1.16.5-R0.1-SNAPSHOT)
+[23:41:13] [Server thread/INFO]: Debug logging is disabled
+[23:41:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:41:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:41:13] [Server thread/INFO]: Default game type: SURVIVAL
+[23:41:13] [Server thread/INFO]: Generating keypair
+[23:41:13] [Server thread/INFO]: Starting Minecraft server on *:25615
+[23:41:13] [Server thread/INFO]: Using default channel type
+[23:41:17] [Server thread/INFO]: [PlugManX] Loading 3 libraries... please wait
+[23:41:17] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=ScfsMAie.Fpg8FMrnjk8sUuydu2.gVh3VL3BD68mE_E-1795124477.781865-1.0.1.1-KphohXO7P.gOyrjVRmtcOvzDlEoXwy5tN1QeBReH4PdChV2sfVImEwMLCJCqsWWvRaWEMlS.d1ZOLzQeMLu9NI0K.1rGOuAQD_3A2g1PDfsA1vR20VEVJejD2I56b1m8; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:17 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:17 GMT
+[23:41:17] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
+[23:41:17] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=.wSpX8Fr2vV7iWKSMe5r33q06ukD8ex.A5qK4L3Rc6c-1795124477.8804445-1.0.1.1-QMri.kNF4Xg7J7nP9Y2a9fBXNpxZHKP.oWhUOD3pl7u18SazhUufP2.q0TVbJPZ5siI1fSzO0OFHo1nBxjokZnG0c9KulDWz.pXYGogO7UOdSQpqftiW43wBBixO4ap6; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:17 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:17 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=V8atuUfBFqAau1vW0K.gDqjW9IZvJklL969KthplSLc-1795124477.9727666-1.0.1.1-oYbx20tAO_mgm.4_Ko9T3AjIgzarCqNQGv_sgOMykfXeyhX2ZuxcJts.T8ms7w4.K6OWMatcOEa4W6cnU0gviNam7_nbizAqXrvuJ91xpRXF0cPPJ6p2b0f7b8XmSQX0; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:17 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:17 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.5/jackson-base-2.13.5.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=R2pdvCpLasDH1QSEhFUfGvfT7yky7U0KRrRNPifmOBU-1795124477.9989812-1.0.1.1-OM1_NviHfCNeyGB80w5ZToP024o7cFWs3VH_TNVJfEnKYwvTSApMWTnpSd3vdpoXAuKSqHg_46lvZOEw4GY1Fhg6sc4AqRyu8GbSYdFhOYhJ3TTqv6Au3lB7iKjqjMjY; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=piFU_bBRO3W7LdT96Q01QaBnp.MNGZWr9tF6RUUwm2o-1795124478.0772586-1.0.1.1-HxBpFVZSVJYwehxYpan0Dn7pdGVAJ731PGIznrnhuV.POQ.emJiwqhJpMvdgVpwRljtVuziaTGxIC5AobW2RQFxNpQVswyaPYwCwwsdSlNhBDS5CbgMxTaJj.nF6aYcS; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.5/jackson-bom-2.13.5.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=aS8F7rUUwcweMCcBqU7cfzsKcfRo10R6_t25MP6H1wU-1795124478.1075687-1.0.1.1-D0uhh0Ku8eZ4IcKx7K3JfZzrnM2o1v0G5q7TWUXO56OeJr6Qs7NIjfZAQpkqa_NQFsYFHyLoNZMPXUf_WGcSm4wULr09EpjAzvN2UUZMKzVX06449mm3UKtADjPY0hEw; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=pKEFhbAaIVeIsd5IQzQU_zBUWc9dPLT2jXAp2ItBc90-1795124478.1580582-1.0.1.1-PuZrnv8khyg209bUebF9zkxJSP_b0MVbOoe34gKGNBW_gSOydcGhS8uV6KEmMRzR0TAJ8ttYo2wTq.Ks3wn3N9_1EizaSbVSVDaOepLXHbnj7jPCSfrt3lhwQGdnd.gQ; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-parent/2.13/jackson-parent-2.13.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=.TpILUVplGIFstcPZpcItBLbLatN.7ikwErKSeJq97I-1795124478.1797369-1.0.1.1-FPF6FaCNgMUZqfuK5PrT4tA6GgXP1iBfnabGdsG3BNKbitFqWD1TclLGegXPXpw6EfiWLZ2j1TFy6UorLc8binBCXBKvzKOHYdow3jQP42tYjUTN_FUV.obDi.SqWjcT; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=tlypp1XjZ5Z2llRSMn6xvrG1Q1BrlFd85PvNJoGgkVU-1795124478.2285192-1.0.1.1-0uEoSN5Rz1wDiRANa0h9eX6ai0NAwyAZjfTzhefjNkQAqfkEG2Qos5YEfKscLFkVnZpKoxMYmBRWu.p0sX1NB3k.yjjwLTOHe9u_3BDN1hT1voXlzzQU_BB3Tdhtxzpr; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/43/oss-parent-43.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=jIC5y4YkZPnc4No5d7IrYvpGqXpp4hvKnvisJG1Fz38-1795124478.2521412-1.0.1.1-mR1Ag.GqMaasnnFzr3GZp4BTAqX5Qp1w4xJOln7Vc7wXC8Gc2aGnRE618bXLKgBNtTWoHuWRmxvWtxdlYeBwJqB3uFq0UZPDrFbeAOqlUMMAjnt2AA0Mkm.qJiXxq0Ql; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=4CYqGGvlk9YxpM_a4gHj5fkQKn.LiraYdVWoX70BorQ-1795124478.3273745-1.0.1.1-zcN1f63OBE8zrWH1S9LMBMgZH6SzB7ZDeddBTHhRMPuItjHQ3RdNFmJ_42cKk5MMzMrvKIsto43a.Areck0bFZJjGgYgq_Smr3LfEruf9mLpLudRvk4N6K6LoAQch6Vc; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=ojyScEtyu4IBYIVMjup8Ml4xfeEl18Gg1gVV7I_Fut0-1795124478.3498924-1.0.1.1-SAWqm3_w6Dxra4m12WtH3efu1ALIkV.O5N_hkTEmZg9ApCeDjvYiz38Glyb3RDGaumc9i6W9rtP8zalS28KeXET.X7A6wqFrkgjRHEMMfmIf5HL9V1AaFzWS1kxSWx_2; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=_kXJ8Sq.AGgdNiISC5evFbibrnM2xQ7xkMZWhJFPsUM-1795124478.4088368-1.0.1.1-eUgbuRZraUyQbqGIdk_b4Qc9hvkACSoAEr33N56I75KJKNvUEFrX92STncRMQsf5ufKGPwOisE0rdWZDcImZvcoOgjAcrtIUH5C69XTaCGhtrE.WLbFesjWmoxPeL_uV; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [Server thread/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.pom
+[23:41:18] [Server thread/WARN]: Invalid cookie header: "set-cookie: __cf_bm=nRgmWU9eQTc1hm4ef.6C_X71x7CygKs8Xyfv5DHd3tM-1795124478.4376688-1.0.1.1-lgX4MVjFeBIW6eMaaht5ChNYFTC8cXgPRoxaGvYoKVB5G_6zSl3MGBkfQO4UwVosiJ7edE99mG5CLeUfwNdcdsR.5Wf3WDXwB7iqNNATS2Ck8rhymMtgreZU2t90Qym9; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-1/WARN]: Invalid cookie header: "set-cookie: __cf_bm=W_yUB8qEQPhUAYxOGiOgiAVBz23NxAdDk0TapCm3iOw-1795124478.6520443-1.0.1.1-4AMspqBgviI3VE3uCoq8n7hmRj0oL5tfBzgtzv9NgkkBLl1rMLLuMjvoDTQ_tvr62cZ1hj1xOm1bh9.Rk4LSriEq34f_xtr0YFHfKtyQvoyTIzNKkRcKwilIqGa..bUG; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-1/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-2/WARN]: Invalid cookie header: "set-cookie: __cf_bm=p5zOF9dj25T.33onxqlqv4O7fKpfqx7CRn.2wX9gW.A-1795124478.6918783-1.0.1.1-_2EBbVJwozT115_6Ib0i7bntDCdgeDCAK3UrAm6sZRXpZ0Z3Lzks3iSwCfN2PzH.2HBp5te7r4fzznwyLjhYFmOjBSKSkOAdTiv7DcD8wWbkXAeccUVYGgHQSSpjxDoW; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-2/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-1/WARN]: Invalid cookie header: "set-cookie: __cf_bm=81cfeekpXi7O_x1clybFnN1URQyglDm7zD_DN3E7i0g-1795124478.7484565-1.0.1.1-LKWFJLkXttv.2E7rte8G0ugcW5i9gD8NzOCPmMo2fdjwLI9XrO.m.ujSgAhSTC.0xMvHDq3BGcfEbiF2nN9xNM6oP.LnOvSvDBs.dg0Qk8gW295d3PuJ4cyPQXguhkAB; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-0/WARN]: Invalid cookie header: "set-cookie: __cf_bm=HyR.RUrMOtkGD7nL15IOaKETS4qn1P3Us39sTuKHIDM-1795124478.756078-1.0.1.1-kR4O3EsVbTk9PXBk6gXTMFlcH3vW9wV9hzQCfQ_LjfGcLmZmw3LylEFg6AhjUxTzY1w6EbrCNwZvM5xrPVpFqxh5bkKCJhODwMl_nyc_nLqtFXVKTxwFRYQWUBHNHYpR; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-0/INFO]: Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar
+[23:41:18] [BasicRepositoryConnector-repo.maven.apache.org-0-2/WARN]: Invalid cookie header: "set-cookie: __cf_bm=rnhBR6Vx_.DUmVFNsDNYt9yChloi5CXuisojviUrXfk-1795124478.7592282-1.0.1.1-58QXCW14lDmb9tOhiuFcWqmswQ33rvsCu7njwMX4VSkMWKr0R_5jQHcjDxc13tU2eEM_1LwJIWPqLO4.pymUZINqwRxNhTZtqYrd9xZ8wtgNdhcKLSg18kYAB87kxM4a; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:19] [BasicRepositoryConnector-repo.maven.apache.org-0-0/WARN]: Invalid cookie header: "set-cookie: __cf_bm=YtDntYaM8CuHWIrt8iA2ufrg967njaZdgrLcRH5Q7wo-1795124478.9841316-1.0.1.1-KD_34tHFkyd3PhxsrdZ.G5uLjU28ahOVNoU5Q007.8hT8.R9AWt2ylBGkQtpfoGezv__7pcud1Nsl04Z.KR_QJAeMbVhHP1IEp6yDOH.KPdlwJWzR2obaCtcFuzDps7y; HttpOnly; SameSite=None; Partitioned; Secure; Path=/; Domain=repo.maven.apache.org; Expires=Thu, 19 Nov 2026 22:11:18 GMT". Invalid 'expires' attribute: Thu, 19 Nov 2026 22:11:18 GMT
+[23:41:19] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5\libraries\com\fasterxml\jackson\core\jackson-databind\2.13.5\jackson-databind-2.13.5.jar
+[23:41:19] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5\libraries\com\fasterxml\jackson\core\jackson-core\2.13.5\jackson-core-2.13.5.jar
+[23:41:19] [Server thread/INFO]: [PlugManX] Loaded library P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5\libraries\com\fasterxml\jackson\core\jackson-annotations\2.13.5\jackson-annotations-2.13.5.jar
+[23:41:19] [Server thread/ERROR]: Fatal error trying to convert PlugManX v3.0.2:bukkit/com/rylinaux/plugman/PlugManBukkit.class
+java.lang.IllegalArgumentException: Unsupported class file major version 65
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:196) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:177) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.libs.org.objectweb.asm.ClassReader.<init>(ClassReader.java:163) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.util.Commodore.convert(Commodore.java:128) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.util.CraftMagicNumbers.processClass(CraftMagicNumbers.java:327) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:163) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:332) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:381) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:224) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+[23:41:19] [Server thread/ERROR]: Could not load 'plugins\PlugManX.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: bukkit/com/rylinaux/plugman/PlugManBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:332) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.craftbukkit.v1_16_R3.CraftServer.loadPlugins(CraftServer.java:381) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.DedicatedServer.init(DedicatedServer.java:224) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.w(MinecraftServer.java:928) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at net.minecraft.server.v1_16_R3.MinecraftServer.lambda$0(MinecraftServer.java:273) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.Thread.run(Thread.java:831) [?:?]
+Caused by: java.lang.UnsupportedClassVersionError: bukkit/com/rylinaux/plugman/PlugManBukkit has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 60.0
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1010) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:186) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:586) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:519) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:466) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[server.jar:3096a-Spigot-9fb885e-af1a232]
+	... 7 more
+[23:41:19] [Server thread/INFO]: [DiskLens] Loading DiskLens v2.0.0
+[23:41:19] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:41:19] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:41:19] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:41:19] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:41:19] [Server thread/INFO]: Preparing level "world"
+[23:41:19] [Server thread/INFO]: -------- World Settings For [world] --------
+[23:41:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:41:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:41:19] [Server thread/INFO]: View Distance: 3
+[23:41:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:41:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:41:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:41:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:41:19] [Server thread/INFO]: Mob Spawn Range: 6
+[23:41:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:41:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:41:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:41:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:41:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:41:19] [Server thread/INFO]: Max TNT Explosions: 100
+[23:41:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:41:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:41:20] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[23:41:20] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:41:20] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:41:20] [Server thread/INFO]: View Distance: 3
+[23:41:20] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:41:20] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:41:20] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:41:20] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:41:20] [Server thread/INFO]: Mob Spawn Range: 6
+[23:41:20] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:41:20] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:41:20] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:41:20] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:41:20] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:41:20] [Server thread/INFO]: Max TNT Explosions: 100
+[23:41:20] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:41:20] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:41:20] [Server thread/WARN]: Unable to find spawn biome
+[23:41:23] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[23:41:23] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[23:41:23] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[23:41:23] [Server thread/INFO]: View Distance: 3
+[23:41:23] [Server thread/INFO]: Item Despawn Rate: 6000
+[23:41:23] [Server thread/INFO]: Item Merge Radius: 2.5
+[23:41:23] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[23:41:23] [Server thread/INFO]: Experience Merge Radius: 3.0
+[23:41:23] [Server thread/INFO]: Mob Spawn Range: 6
+[23:41:23] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[23:41:23] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Cane Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Melon Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Potato Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Vine Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[23:41:23] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[23:41:23] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Bastion: 30084232 Fortress: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[23:41:23] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[23:41:23] [Server thread/INFO]: Max TNT Explosions: 100
+[23:41:23] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[23:41:23] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[23:41:23] [Server thread/WARN]: Unable to find spawn biome
+[23:41:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:41:24] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[23:41:24] [Worker-Main-13/INFO]: Preparing spawn area: 0%
+[23:41:25] [Worker-Main-12/INFO]: Preparing spawn area: 0%
+[23:41:25] [Worker-Main-8/INFO]: Preparing spawn area: 5%
+[23:41:27] [Worker-Main-8/INFO]: Preparing spawn area: 8%
+[23:41:27] [Worker-Main-11/INFO]: Preparing spawn area: 8%
+[23:41:28] [Worker-Main-10/INFO]: Preparing spawn area: 16%
+[23:41:28] [Worker-Main-15/INFO]: Preparing spawn area: 16%
+[23:41:29] [Worker-Main-12/INFO]: Preparing spawn area: 20%
+[23:41:29] [Worker-Main-11/INFO]: Preparing spawn area: 20%
+[23:41:29] [Worker-Main-12/INFO]: Preparing spawn area: 20%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-11/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-11/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-11/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-8/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-11/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 29%
+[23:41:34] [Worker-Main-12/INFO]: Preparing spawn area: 54%
+[23:41:37] [Worker-Main-15/INFO]: Preparing spawn area: 76%
+[23:41:37] [Worker-Main-12/INFO]: Preparing spawn area: 76%
+[23:41:37] [Worker-Main-13/INFO]: Preparing spawn area: 76%
+[23:41:37] [Worker-Main-15/INFO]: Preparing spawn area: 76%
+[23:41:37] [Worker-Main-10/INFO]: Preparing spawn area: 76%
+[23:41:37] [Server thread/INFO]: Time elapsed: 13204 ms
+[23:41:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:41:37] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[23:41:38] [Worker-Main-8/INFO]: Preparing spawn area: 1%
+[23:41:38] [Worker-Main-15/INFO]: Preparing spawn area: 3%
+[23:41:39] [Worker-Main-10/INFO]: Preparing spawn area: 5%
+[23:41:39] [Worker-Main-8/INFO]: Preparing spawn area: 8%
+[23:41:40] [Worker-Main-12/INFO]: Preparing spawn area: 10%
+[23:41:40] [Worker-Main-9/INFO]: Preparing spawn area: 14%
+[23:41:41] [Worker-Main-15/INFO]: Preparing spawn area: 19%
+[23:41:41] [Worker-Main-12/INFO]: Preparing spawn area: 26%
+[23:41:42] [Worker-Main-9/INFO]: Preparing spawn area: 28%
+[23:41:42] [Worker-Main-8/INFO]: Preparing spawn area: 37%
+[23:41:43] [Worker-Main-8/INFO]: Preparing spawn area: 45%
+[23:41:43] [Worker-Main-8/INFO]: Preparing spawn area: 52%
+[23:41:44] [Worker-Main-8/INFO]: Preparing spawn area: 56%
+[23:41:44] [Worker-Main-10/INFO]: Preparing spawn area: 67%
+[23:41:45] [Worker-Main-11/INFO]: Preparing spawn area: 68%
+[23:41:45] [Worker-Main-9/INFO]: Preparing spawn area: 81%
+[23:41:46] [Worker-Main-13/INFO]: Preparing spawn area: 87%
+[23:41:46] [Worker-Main-8/INFO]: Preparing spawn area: 91%
+[23:41:46] [Server thread/INFO]: Time elapsed: 9306 ms
+[23:41:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:41:47] [Worker-Main-15/INFO]: Preparing spawn area: 0%
+[23:41:47] [Worker-Main-10/INFO]: Preparing spawn area: 15%
+[23:41:47] [Worker-Main-11/INFO]: Preparing spawn area: 54%
+[23:41:48] [Server thread/INFO]: Time elapsed: 1467 ms
+[23:41:48] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[23:41:48] [Server thread/INFO]: [DiskLens] config.yml: +[language, default-language, command-aliases, default-depth, default-top, files-per-folder, largest-files, max-chat-lines, max-console-lines, console-ascii-tree, report-ascii-tree, progress-log-seconds]
+[23:41:48] [Server thread/INFO]: [DiskLens] Platform: CraftBukkit 3096a-Spigot-9fb885e-af1a232 (MC: 1.16.5)
+[23:41:48] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5
+[23:41:48] [Server thread/INFO]: Done (29.351s)! For help, type "help"
+[23:41:48] [Server thread/INFO]: Starting remote control listener
+[23:41:48] [Server thread/INFO]: Thread RCON Listener started
+[23:41:48] [Server thread/INFO]: RCON running on 0.0.0.0:25715
+[23:41:48] [Server thread/INFO]: Scanning the server folder in the background, this may take a while…
+[23:41:48] [Server thread/INFO]: [DiskLens] Scan started: P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: [DiskLens] Scan finished: 57 files, 69.7 MB in 11 ms, access errors: 0, skipped links: 0
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: == ./ (server root)  69.7 MB, 57 files, 39 folders
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: Partition: 222 GB used of 238 GB, 16.7 GB free (your hosting quota may differ)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- server.jar  37.3 MB (53.6%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- backups/  30.0 MB (43.1%)  1 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  \- old-backup.zip  30.0 MB (100.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- libraries/  2.0 MB (2.8%)  27 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  \- com/  2.0 MB (100.0%)  27 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- plugins/  340 KB (0.5%)  7 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  +- PlugManX.jar  257 KB (75.6%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  +- DiskLens-2.0.0.jar  73.1 KB (21.5%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  +- DiskLens/  9.9 KB (2.9%)  4 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  \- PluginMetrics/  92 B (0.0%)  1 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- logs/  30.2 KB (0.0%)  1 f.
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: |  \- latest.log  30.2 KB (100.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- spigot.yml  3.7 KB (0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- help.yml  2.5 KB (0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- server.properties  1.1 KB (0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- bukkit.yml  1.1 KB (0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: +- commands.yml  598 B (0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: \- ... 11 more (204 B, 0.0%)
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:41:48] [Craft Scheduler Thread - 0/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: == backups/  30.0 MB, 1 files, 0 folders
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: Partition: 222 GB used of 238 GB, 16.7 GB free (your hosting quota may differ)
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: \- old-backup.zip  30.0 MB (100.0%)
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: Rescan: /disklens backups/ -r   Report to file: /disklens export backups/
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: == Largest files on the server (10 of 57, total 69.7 MB)
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   1. 37.3 MB  server.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   2. 30.0 MB  backups/old-backup.zip
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   3. 1.5 MB  libraries/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   4. 366 KB  libraries/com/fasterxml/jackson/core/jackson-core/2.13.5/jackson-core-2.13.5.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   5. 257 KB  plugins/PlugManX.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   6. 73.9 KB  libraries/com/fasterxml/jackson/core/jackson-annotations/2.13.5/jackson-annotations-2.13.5.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   7. 73.1 KB  plugins/DiskLens-2.0.0.jar
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   8. 30.2 KB  logs/latest.log
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:   9. 23.1 KB  libraries/com/fasterxml/oss-parent/43/oss-parent-43.pom
+[23:41:49] [Craft Scheduler Thread - 0/INFO]:  10. 17.5 KB  libraries/com/fasterxml/jackson/core/jackson-databind/2.13.5/jackson-databind-2.13.5.pom
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: Scan: 1 s ago, took 0.0 s, access errors: 0, skipped links: 0
+[23:41:49] [Craft Scheduler Thread - 0/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:41:50] [Craft Scheduler Thread - 0/INFO]: [DiskLens] Report written: P:\FoliaRust\DiskUsagePlugin\itest\servers\spigot-1.16.5\plugins\DiskLens\reports\report-20261119-234150.txt
+[23:41:50] [Server thread/INFO]: You can't leave the server folder.
+[23:41:51] [Server thread/INFO]: No scan is running. Cached result from 2 s ago: 69.7 MB, 57 files.
+[23:41:51] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[23:41:51] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[23:41:51] [Server thread/INFO]: Конфиг и языки DiskLens перезагружены.
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: == ./ (корень сервера)  69.7 МБ, 57 файлов, 39 папок
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: Раздел: занято 222 ГБ из 238 ГБ, свободно 16.7 ГБ (лимит хостинга может отличаться)
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: +- server.jar  37.3 МБ (53.6%)
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: \- ... ещё 20 (32.4 МБ, 46.4%)
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: Скан: 3 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0
+[23:41:52] [Craft Scheduler Thread - 0/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[23:41:52] [Server thread/INFO]: Stopping the server
+[23:41:52] [Server thread/INFO]: Stopping server
+[23:41:52] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[23:41:52] [Server thread/INFO]: Saving players
+[23:41:52] [Server thread/INFO]: Saving worlds
+[23:41:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:41:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:41:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[23:41:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:41:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[23:41:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:41:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:41:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:41:59] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:41:59] [Server thread/INFO]: Thread RCON Listener stopped

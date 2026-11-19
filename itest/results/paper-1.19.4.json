@@ -1,0 +1,142 @@
+{
+ "case": "paper-1.19.4",
+ "checks": [
+  [
+   "server started",
+   "PASS",
+   "no 'Done (' in log"
+  ],
+  [
+   "plugin enabled",
+   "PASS",
+   ""
+  ],
+  [
+   "platform detected",
+   "PASS",
+   [
+    "Platform: Paper git-Paper-550 (MC: 1.19.4)"
+   ]
+  ],
+  [
+   "config auto-update: keys added",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: user value kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: comment kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: version bumped",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: backup",
+   "PASS",
+   ""
+  ],
+  [
+   "lang files installed",
+   "PASS",
+   ""
+  ],
+  [
+   "console: scan finished",
+   "PASS",
+   ""
+  ],
+  [
+   "console: tree header",
+   "PASS",
+   ""
+  ],
+  [
+   "console: ascii tree + backup found",
+   "PASS",
+   ""
+  ],
+  [
+   "console: no colour codes",
+   "PASS",
+   ""
+  ],
+  [
+   "alias /du works",
+   "PASS",
+   ""
+  ],
+  [
+   "files list",
+   "PASS",
+   ""
+  ],
+  [
+   "export report",
+   "PASS",
+   ""
+  ],
+  [
+   "path guard",
+   "PASS",
+   ""
+  ],
+  [
+   "status (cache)",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: tree",
+   "PASS",
+   "== ./ (server root)  199 MB, 149 files, 311 folders\nPartition: 221 GB used of 238 GB, 17.0 GB free (your hosting quota m"
+  ],
+  [
+   "rcon: plain text",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: files",
+   "PASS",
+   "== Largest files on the server (2 of 149, total 199 MB)\n  1. 45.3 MB  cache/mojang_1.19.4.jar\n  2. 40.7 MB  server.jar\nS"
+  ],
+  [
+   "rcon: path guard",
+   "PASS",
+   "You can't leave the server folder.\n"
+  ],
+  [
+   "reload",
+   "PASS",
+   ""
+  ],
+  [
+   "russian output",
+   "PASS",
+   ""
+  ],
+  [
+   "plugman lifecycle",
+   "SKIP",
+   "PlugManX did not enable on this server"
+  ],
+  [
+   "no DiskLens errors in log",
+   "PASS",
+   []
+  ],
+  [
+   "clean shutdown",
+   "PASS",
+   ""
+  ]
+ ]
+}

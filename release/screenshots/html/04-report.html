@@ -1,0 +1,39 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Console — disklens export</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Inter:wght@500;600&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box;margin:0}
+html,body{width:1400px}
+
+body{height:712px;background:radial-gradient(1200px 600px at 20% -10%,#1d2740,#0c1020 60%);font-family:Inter,sans-serif;padding:36px 40px}
+.win{background:#0b0e17;border:1px solid #232a3d;border-radius:12px;box-shadow:0 20px 60px rgba(0,0,0,.55);overflow:hidden}
+.bar{height:46px;background:#141a2b;border-bottom:1px solid #232a3d;display:flex;align-items:center;padding:0 16px;gap:8px;color:#8d98b8;font-size:14px;font-weight:600}
+.dot{width:12px;height:12px;border-radius:50%}
+.bar .t{margin-left:12px}.bar .r{margin-left:auto;font-weight:500;color:#5f6b8c}
+.term{padding:14px 20px 16px;font-family:'JetBrains Mono',monospace;font-size:16px;color:#c9d1e6}
+.ln{height:26px;line-height:26px;white-space:pre;overflow:hidden}
+.ts{color:#5d6b8f}.pl{color:#e6ecff}
+.cmd{color:#fff;font-weight:600;background:#12192b;margin:6px -20px 4px;padding:0 20px;border-left:3px solid #4f8cff}
+.pr{color:#4f8cff}
+.note{margin-top:14px;color:#5f6b8c;font-size:13px;text-align:right}
+</style></head><body>
+<div class="win"><div class="bar"><span class="dot" style="background:#ff5f57"></span><span class="dot" style="background:#febc2e"></span><span class="dot" style="background:#28c840"></span><span class="t">Console — disklens export</span><span class="r">Paper 1.21.11 · DiskLens 2.0.0</span></div>
+<div class="term">
+<div class="ln cmd"><span class="pr">&gt;</span> disklens export</div>
+<div class="ln pl"><span class="ts">[23:40:00 INFO]:</span> [DiskLens] Report written: /home/container/plugins/DiskLens/reports/report-20261119-234000.txt</div>
+</div><div class="bar" style="border-top:1px solid #232a3d"><span class="t">plugins/DiskLens/reports/report-20261119-234000.txt</span><span class="r">File manager · text view</span></div><div class="term" style="color:#dbe3f7;background:#0e1322"><div class="ln">DiskLens report 2026-11-19 23:40:00</div>
+<div class="ln">Server root: /home/container</div>
+<div class="ln">Partition: 222 GB used of 238 GB, 16.7 GB free (your hosting quota may differ)</div>
+<div class="ln">Folder: ./ (server root)  19.0 GB (20404981947 bytes), 268 files, 430 folders</div>
+<div class="ln">Scan: 50 ms, access errors: 0, skipped links: 0</div>
+<div class="ln">Up to 50 largest files are listed per folder, the rest are collapsed into "… N more (…)".</div>
+<div class="ln"></div>
+<div class="ln">├─ backups/  10.0 GB (52.6%)  4 f.</div>
+<div class="ln">│  ├─ world-2024-06-01.zip  3.4 GB (34.2%)</div>
+<div class="ln">│  ├─ world-2024-05-15.zip  3.3 GB (32.7%)</div>
+<div class="ln">│  ├─ world-2024-05-01.zip  3.1 GB (31.3%)</div>
+<div class="ln">│  └─ plugins-2024-06-01.zip  180 MB (1.8%)</div>
+<div class="ln">├─ bluemap/  3.5 GB (18.2%)  67 f.</div>
+<div class="ln">│  └─ web/  3.5 GB (100.0%)  67 f.</div>
+<div class="ln">…</div></div></div>
+<div class="note">Real console output and report file (demo data)</div>
+</body></html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DiskLens alternative 1: a lens over a disk stack. Light tile. 512x512, flat shapes. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>DiskLens alt 1</title>
+  <rect x="0" y="0" width="512" height="512" rx="96" ry="96" fill="#E6EEF7"/>
+  <!-- Disk stack: body, separators, top face -->
+  <path d="M68 270 V372 A108 40 0 0 0 284 372 V270 Z" fill="#334155"/>
+  <path d="M68 316 A108 40 0 0 0 284 316" fill="none" stroke="#64748B" stroke-width="8"/>
+  <path d="M68 352 A108 40 0 0 0 284 352" fill="none" stroke="#64748B" stroke-width="8"/>
+  <ellipse cx="176" cy="270" rx="108" ry="40" fill="#5B6B80"/>
+  <ellipse cx="176" cy="270" rx="64" ry="20" fill="#7C8BA1"/>
+  <!-- Lens -->
+  <circle cx="318" cy="186" r="92" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="26"/>
+  <!-- Glass highlight -->
+  <path d="M262 170 A62 62 0 0 1 296 134" fill="none" stroke="#C9DBF0" stroke-width="12" stroke-linecap="round"/>
+  <!-- Handle -->
+  <line x1="384" y1="252" x2="438" y2="306" stroke="#F5A524" stroke-width="34" stroke-linecap="round"/>
+</svg>

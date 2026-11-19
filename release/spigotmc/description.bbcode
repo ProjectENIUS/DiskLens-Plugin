@@ -1,0 +1,148 @@
+[CENTER][SIZE=7][B]DiskLens[/B][/SIZE]
+[SIZE=4][I]Find out what is eating your server's disk space - right from the console or in-game chat.[/I][/SIZE]
+[B]Spigot | Paper | Purpur | Folia[/B] - one jar, Minecraft 1.16.5+[/CENTER]
+
+[SIZE=5][B]What is DiskLens?[/B][/SIZE]
+DiskLens scans your server folder and shows a [B]tree of folders sorted by size[/B]: how big each folder is, what percent of its parent it takes, and the top-N biggest entries per level (everything else collapses into a "N more" line). It works in the game, in the server console, in your hosting panel's console and over RCON.
+
+[LIST]
+[*][B]Works on plain Spigot[/B] as well as Paper, Purpur and Folia - the same jar, no separate builds.
+[*]Async scanning only: the main thread and Folia region threads are never blocked.
+[*]Read-only: it never deletes, moves or changes your files.
+[/LIST]
+
+[SIZE=5][B]Why?[/B][/SIZE]
+Most hosting panels do not show folder sizes, and "my disk is full" is one of the most common server problems. Typical culprits: web-map tiles (BlueMap/Dynmap), backups, old logs, crash reports, dumps and plugin databases. DiskLens answers "what takes the space?" in seconds - without FTP, SSH or downloading anything.
+[I]Real example: on a Folia hosting server it found about 152 GB of web-map tiles for nether/end maps and a 22 GB CoreProtect database that nobody knew about.[/I]
+
+[SIZE=5][B]Features[/B][/SIZE]
+[LIST]
+[*][B]Size tree[/B] sorted by size, with sizes and percent of parent folder; top-N per level, the rest collapses into "N more".
+[*][B]Clickable folders in chat[/B] - click a folder to drill down, with [up], [Rescan] and [Report to file] buttons. Colours show how big a share a folder takes.
+[*][B]Plain text for the console, hosting panel and RCON[/B] - an ASCII tree that reads correctly in any panel (no colour codes, no broken box characters).
+[*][B]/disklens files[/B] - the largest files on the whole server.
+[*][B]/disklens export[/B] - a full text report written to [ICODE]plugins/DiskLens/reports/[/ICODE].
+[*][B]Cache[/B] - results are cached (5 minutes by default), repeated commands and clicks are instant. Add [ICODE]-r[/ICODE] to rescan.
+[*]Symlinks are not followed; folders you cannot read are skipped and counted.
+[*]Safe paths: [ICODE]..[/ICODE] and absolute paths cannot leave the server folder.
+[*]Tab completion for folder names.
+[*][B]English and Russian[/B]; players get their client language automatically. Add your own language by dropping a file into the lang folder.
+[*][B]Auto-updating config and language files[/B] - new options are added on update, your edits are kept (a [ICODE]config.yml.bak[/ICODE] backup is saved).
+[*][B]PlugMan / PlugManX safe[/B] - unload and load without a restart.
+[/LIST]
+
+[SIZE=5][B]Example output[/B][/SIZE]
+(Console / panel / RCON view. Folder names here are generic examples.)
+[CODE]
+> disklens
+./ (server root)  74.2 GB  (12,418 files, 903 folders)
++- world/                     41.8 GB  56%
+|  +- region/                 39.9 GB  95%
+|  +- DIM-1/                   1.4 GB   3%
+|  \- ... 3 more (0.5 GB, 1%)
++- plugins/                   18.6 GB  25%
+|  +- ExampleMap/             15.2 GB  82%
+|  +- ExampleDatabase/         2.9 GB  16%
+|  \- ... 24 more (0.5 GB, 2%)
++- backups/                    9.1 GB  12%
+|  \- ... 6 more (9.1 GB, 100%)
++- logs/                       3.9 GB   5%
+\- ... 4 more (0.8 GB, 1%)
+Partition: 74.2 GB used of 200 GB, 125.8 GB free (your hosting quota may differ)
+Scan: just now, took 3.4 s, access errors: 0, skipped links: 0
+[/CODE]
+[I]The exact wording depends on the language file; the numbers above are illustrative.[/I]
+
+[SIZE=5][B]Commands[/B][/SIZE]
+Main command: [ICODE]/disklens[/ICODE]. Alias: [ICODE]/du[/ICODE] (configurable - see [ICODE]command-aliases[/ICODE]; if another plugin already uses [ICODE]/du[/ICODE], use [ICODE]/disklens[/ICODE] or [ICODE]/disklens:du[/ICODE]). In the console you can omit the slash.
+[LIST]
+[*][ICODE]/disklens [path] [depth] [topN] [-r][/ICODE] - folder tree. Defaults: depth 2, top 10. Examples: [ICODE]/disklens world 3 15[/ICODE], [ICODE]/disklens plugins/ 1 30[/ICODE]. Folders with purely numeric names need a slash: [ICODE]2024/[/ICODE].
+[*][ICODE]/disklens files [N] [-r][/ICODE] - largest files on the server.
+[*][ICODE]/disklens export [path] [-r][/ICODE] - full report to [ICODE]plugins/DiskLens/reports/[/ICODE].
+[*][ICODE]/disklens status[/ICODE] - scan and cache state.
+[*][ICODE]/disklens reload[/ICODE] - reload [ICODE]config.yml[/ICODE] and language files.
+[*][ICODE]/disklens help[/ICODE] - help.
+[*][ICODE]-r[/ICODE] - ignore the cache and rescan.
+[/LIST]
+[B]RCON / command blocks:[/B] they get the reply only at the moment the command runs. If the result is cached it is returned at once; if not, a background scan starts, the result goes to the server log, and you repeat the command (without [ICODE]-r[/ICODE]) a few seconds later.
+
+[SIZE=5][B]Permissions[/B][/SIZE]
+[LIST]
+[*][ICODE]disklens.use[/ICODE] - use [ICODE]/disklens[/ICODE]. Default: [B]op[/B]. The console and RCON can always use it.
+[/LIST]
+
+[SIZE=5][B]Configuration[/B][/SIZE]
+[SPOILER="config.yml"]
+[CODE=yaml]
+config-version: 2          # do not edit: used to update this file
+
+# "auto" = the player's client language, or a code such as "en", "ru"
+language: auto
+# language for the console, RCON and players whose language is not available
+default-language: en
+
+# short aliases in addition to /disklens; [] disables them (applied on start / plugin load)
+command-aliases: [du]
+
+cache-minutes: 5           # how long a scan result is kept
+default-depth: 2           # defaults for /disklens [path] [depth] [topN]
+default-top: 10
+files-per-folder: 50       # largest files kept per folder (rest: "N more")
+largest-files: 100         # largest files on the server for "files" and the report
+max-chat-lines: 250        # line limits per output (more: /disklens export)
+max-console-lines: 1000
+console-ascii-tree: true   # ASCII tree in the console (+- \- |)
+report-ascii-tree: false   # same for the report file (UTF-8 box lines by default)
+progress-log-seconds: 5    # how often scan progress is written to the log
+[/CODE]
+[/SPOILER]
+
+[SIZE=5][B]Languages[/B][/SIZE]
+English and Russian are built in. By default ([ICODE]language: auto[/ICODE]) every player sees the plugin in their Minecraft client language; the console, RCON and players with an unavailable language use [ICODE]default-language[/ICODE]. Files live in [ICODE]plugins/DiskLens/lang/<code>.yml[/ICODE] - copy one, translate it, and add your own language. Missing keys are added automatically on update; your edits are kept.
+
+[SIZE=5][B]PlugMan / PlugManX[/B][/SIZE]
+DiskLens can be unloaded and loaded without a restart:
+[CODE]
+plugman unload DiskLens
+plugman load DiskLens-2.0.0
+[/CODE]
+On unload it cancels its tasks, interrupts a running scan, clears the cache and removes its command aliases; on load everything is created again with nothing duplicated.
+[B]Folia note:[/B] some PlugManX versions throw an error on [ICODE]plugman reload[/ICODE] on Folia (a PlugManX limitation, not DiskLens). Use [ICODE]unload[/ICODE] + [ICODE]load[/ICODE] as two steps.
+
+[SIZE=5][B]Supported servers and versions[/B][/SIZE]
+[LIST]
+[*][B]Software:[/B] Spigot, Paper, Purpur, Folia (one jar, [ICODE]folia-supported: true[/ICODE]).
+[*][B]Minecraft:[/B] 1.16.5 and newer. The core runs on Java 8+; the Folia part (loaded only on Folia) needs Java 17+, which Folia requires anyway.
+[*][B]Tested (all checks passed on a real server):[/B]
+[LIST]
+[*][B]Spigot:[/B] 1.16.5, 1.21.11
+[*][B]Paper:[/B] 1.16.5, 1.17.1, 1.18.2, 1.19.4, 1.20.6, 1.21.4, 1.21.11
+[*][B]Purpur:[/B] 1.16.5, 1.20.4, 1.21.11
+[*][B]Folia:[/B] 1.20.6, 1.21.11 (and 1.19.4 - everything works except RCON, because Folia 1.19.4 itself rejects all RCON commands, even vanilla ones)
+[/LIST]
+[*]PlugMan/PlugManX unload/load was verified on 1.20.6 and newer (PlugManX does not run on the older test servers).
+[*]Minecraft 26.x is [B]not tested yet[/B].
+[/LIST]
+[I]Only the versions listed above have been verified. Versions in between should work on the same API but are not claimed.[/I]
+
+[SIZE=5][B]FAQ[/B][/SIZE]
+[SPOILER="Does it work on plain Spigot?"]Yes. The same jar works on Spigot, Paper, Purpur and Folia; the Folia-specific code is loaded only when Folia is detected.[/SPOILER]
+[SPOILER="Will it lag my server?"]No. Scanning runs only asynchronously and never on the main thread or a Folia region thread. A big server folder simply takes longer to scan (seconds to minutes on slow disks), with progress shown in the action bar or the log.[/SPOILER]
+[SPOILER="Can it delete files?"]No. DiskLens only reads. Nothing is deleted, moved or modified; the only thing it writes is the optional report file.[/SPOILER]
+[SPOILER="Can it read outside the server folder?"]No. Paths with [ICODE]..[/ICODE] and absolute paths outside the server root are rejected. Symlinks are not followed.[/SPOILER]
+[SPOILER="The sizes differ from my hosting panel."]DiskLens shows logical sizes (the sum of file sizes). The "Partition" line shows the whole disk of the machine; your hosting quota may be smaller.[/SPOILER]
+[SPOILER="The /du alias does not work."]Another plugin probably owns it. Use [ICODE]/disklens[/ICODE] or [ICODE]/disklens:du[/ICODE], or change [ICODE]command-aliases[/ICODE] in the config (restart or reload the plugin to apply).[/SPOILER]
+[SPOILER="RCON says a scan was started but shows no tree."]RCON only gets a reply at the moment of the command. Wait a few seconds and run the command again without [ICODE]-r[/ICODE] - the cached result is returned.[/SPOILER]
+[SPOILER="Does it collect data or phone home?"]No network access, no metrics, no external connections.[/SPOILER]
+[SPOILER="Folders with numeric names don't open."]Add a slash: [ICODE]/disklens 2024/[/ICODE].[/SPOILER]
+
+[SIZE=5][B]Installation[/B][/SIZE]
+[LIST=1]
+[*]Put [ICODE]DiskLens-2.0.0.jar[/ICODE] into the [ICODE]plugins/[/ICODE] folder (a hosting panel file manager works too).
+[*]Restart the server (or load it with PlugMan).
+[*]Run [ICODE]/disklens[/ICODE] as an op, or [ICODE]disklens[/ICODE] in the console.
+[/LIST]
+Upgrading from the old [B]DiskUsage[/B] plugin (1.x): this is the same project, renamed. Remove the old jar. The new config and language files are created automatically.
+
+[SIZE=5][B]Support[/B][/SIZE]
+Questions and bug reports: use the [B]Discussion[/B] thread of this resource. Please include your server software and version and the plugin version.

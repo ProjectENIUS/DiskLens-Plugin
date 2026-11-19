@@ -1,0 +1,226 @@
+[21:36:20] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Azul Systems, Inc. Zulu21.40+17-CA) on Windows 11 10.0 (amd64)
+[21:36:20] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[21:36:22] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:36:22] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
+[21:36:29] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 6664ms.
+[21:36:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\DiskLens-2.0.0.jar'...
+[21:36:29] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DiskLens-2.0.0.jar' in 162ms.
+[21:36:30] [ServerMain/INFO]: [PluginInitializerManager] Initialized 2 plugins
+[21:36:30] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - PlugManX (3.0.2)
+[21:36:30] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - DiskLens (2.0.0)
+[21:36:38] [ServerMain/ERROR]: You have used the Spigot command line EULA agreement flag.
+[21:36:38] [ServerMain/ERROR]: By using this setting you are indicating your agreement to Mojang's EULA (https://aka.ms/MinecraftEULA).
+[21:36:38] [ServerMain/ERROR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[21:36:38] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:36:38] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[21:36:38] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[21:36:39] [ServerMain/INFO]: No existing world data, creating new world
+[21:36:39] [ServerMain/ERROR]: No key layers in MapLike[{}]
+[21:36:40] [ServerMain/INFO]: Loaded 1470 recipes
+[21:36:40] [ServerMain/INFO]: Loaded 1584 advancements
+[21:36:40] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:36:41] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 633,4ms
+[21:36:41] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[21:36:41] [Server thread/INFO]: Loading properties
+[21:36:41] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[21:36:41] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:36:41] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:36:41] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:36:41] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[21:36:41] [Server thread/INFO]: Default game type: SURVIVAL
+[21:36:41] [Server thread/INFO]: Generating keypair
+[21:36:41] [Server thread/INFO]: Starting Minecraft server on *:25607
+[21:36:41] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[21:36:41] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[21:36:42] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v3.0.2
+[21:36:42] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:36:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:36:42] [Server thread/INFO]: [PlugManX] Enabling PlugManX v3.0.2
+[21:36:43] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[21:36:43] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[21:36:43] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[21:36:43] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[21:36:43] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/Test-Account666/PlugMan
+[21:36:43] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[21:36:43] [Server thread/INFO]: [PlugManX] You can disable this warning by setting 'showPaperWarning' to false in the config.yml
+[21:36:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:36:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:36:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:36:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:36:43] [Server thread/INFO]: Preparing level "world"
+[21:36:43] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:36:43] [Server thread/INFO]: Selecting spawn point for world 'minecraft:overworld'...
+[21:36:44] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:36:44] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_nether'...
+[21:36:45] [Server thread/ERROR]: No key layers in MapLike[{}]
+[21:36:45] [Server thread/INFO]: Selecting spawn point for world 'minecraft:the_end'...
+[21:36:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[21:36:45] [Server thread/INFO]: Preparing spawn area: 100%
+[21:36:45] [Server thread/INFO]: Prepared spawn area in 2168 ms
+[21:36:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[21:36:45] [Server thread/INFO]: Preparing spawn area: 100%
+[21:36:45] [Server thread/INFO]: Prepared spawn area in 1521 ms
+[21:36:45] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[21:36:45] [Server thread/INFO]: Preparing spawn area: 100%
+[21:36:45] [Server thread/INFO]: Prepared spawn area in 382 ms
+[21:36:45] [Server thread/INFO]: Done preparing level "world" (2.521s)
+[21:36:45] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:36:45] [Server thread/INFO]: [DiskLens] config.yml: +[language, default-language, command-aliases, default-depth, default-top, files-per-folder, largest-files, max-chat-lines, max-console-lines, console-ascii-tree, report-ascii-tree, progress-log-seconds]
+[21:36:45] [Server thread/INFO]: [DiskLens] Platform: Paper 1.21.11-132-c5eb079 (MC: 1.21.11)
+[21:36:45] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:36:45] [Server thread/INFO]: [spark] Starting background profiler...
+[21:36:45] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[21:36:46] [Server thread/INFO]: Starting remote control listener
+[21:36:46] [Server thread/INFO]: Thread RCON Listener started
+[21:36:46] [Server thread/INFO]: RCON running on 0.0.0.0:25707
+[21:36:46] [Server thread/INFO]: Running delayed init tasks
+[21:36:46] [Server thread/INFO]: Done (26.535s)! For help, type "help"
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: However, you are 6 release(s) behind the latest stable release (26.3)!
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[21:36:46] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[21:36:46] [Server thread/INFO]: Scanning the server folder in the background, this may take a while…
+[21:36:46] [Server thread/INFO]: [DiskLens] Scan started: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: [DiskLens] Scan finished: 198 files, 273 MB in 65 ms, access errors: 0, skipped links: 0
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: == ./ (server root)  273 MB, 198 files, 351 folders
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Partition: 219 GB used of 238 GB, 19.0 GB free (your hosting quota may differ)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- libraries/  74.8 MB (27.4%)  141 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- it/  22.9 MB (30.5%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- org/  22.7 MB (30.3%)  39 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- com/  12.4 MB (16.5%)  46 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- io/  7.5 MB (10.0%)  23 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- net/  4.5 MB (6.1%)  24 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- me/  2.9 MB (3.8%)  2 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- at/  667 KB (0.9%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- commons-io/  551 KB (0.7%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- commons-codec/  352 KB (0.5%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- commons-lang/  278 KB (0.4%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- ... 2 more (221 KB, 0.3%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- cache/  53.7 MB (19.7%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- mojang_1.21.11.jar  53.7 MB (100.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- server.jar  52.3 MB (19.2%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- plugins/  33.7 MB (12.3%)  24 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- .paper-remapped/  33.3 MB (98.9%)  7 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- PlugManX.jar  257 KB (0.7%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- DiskLens-2.0.0.jar  73.1 KB (0.2%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- PlugManX/  32.9 KB (0.1%)  8 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- DiskLens/  9.9 KB (0.0%)  4 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- spark/  702 B (0.0%)  2 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- bStats/  337 B (0.0%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- backups/  30.0 MB (11.0%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- old-backup.zip  30.0 MB (100.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- versions/  28.2 MB (10.3%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- 1.21.11/  28.2 MB (100.0%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- config/  12.8 KB (0.0%)  2 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  +- paper-world-defaults.yml  8.4 KB (65.5%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- paper-global.yml  4.4 KB (34.5%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- logs/  7.9 KB (0.0%)  1 f.
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: |  \- latest.log  7.9 KB (100.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- spigot.yml  4.8 KB (0.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- help.yml  2.8 KB (0.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: \- ... 15 more (4.6 KB, 0.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: == backups/  30.0 MB, 1 files, 0 folders
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Partition: 219 GB used of 238 GB, 19.0 GB free (your hosting quota may differ)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: \- old-backup.zip  30.0 MB (100.0%)
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[21:36:46] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Rescan: /disklens backups/ -r   Report to file: /disklens export backups/
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]: == Largest files on the server (10 of 198, total 273 MB)
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   1. 53.7 MB  cache/mojang_1.21.11.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   2. 52.3 MB  server.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   3. 30.0 MB  backups/old-backup.zip
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   4. 28.2 MB  versions/1.21.11/paper-1.21.11.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   5. 26.8 MB  plugins/.paper-remapped/remap-classpath/5028247881868F33795961B8387BB1B13C018B83E4523A77C8A8D8EFCD8F6FEE.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   6. 22.9 MB  libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   7. 13.7 MB  libraries/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   8. 6.4 MB  plugins/.paper-remapped/mappings/reversed/5028247881868F33795961B8387BB1B13C018B83E4523A77C8A8D8EFCD8F6FEE.tiny
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:   9. 2.9 MB  libraries/com/google/guava/guava/33.5.0-jre/guava-33.5.0-jre.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]:  10. 2.9 MB  libraries/me/lucko/spark-paper/1.10.152/spark-paper-1.10.152.jar
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[21:36:47] [Craft Scheduler Thread - 2 - DiskLens/INFO]: [DiskLens] Report written: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11\plugins\DiskLens\reports\report-20261119-213647.txt
+[21:36:48] [Server thread/INFO]: You can't leave the server folder.
+[21:36:48] [Server thread/INFO]: No scan is running. Cached result from 2 s ago: 273 MB, 198 files.
+[21:36:49] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[21:36:49] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[21:36:49] [Server thread/INFO]: Конфиг и языки DiskLens перезагружены.
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: == ./ (корень сервера)  273 МБ, 198 файлов, 351 папок
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Раздел: занято 219 ГБ из 238 ГБ, свободно 18.9 ГБ (лимит хостинга может отличаться)
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- libraries/  74.8 МБ (27.4%)  141 ф.
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: \- ... ещё 24 (198 МБ, 72.6%)
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Скан: 3 с назад за 0.1 с, ошибок доступа: 0, пропущено ссылок: 0
+[21:36:49] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[21:36:50] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:36:50] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: DiskLens
+[21:36:50] [Server thread/INFO]: [PlugMan] DiskLens has been unloaded.
+[21:36:50] [Server thread/INFO]: Unknown or incomplete command. See below for error
+du<--[HERE]
+[21:36:51] [Server thread/INFO]: [PlugManX] Attempting to load plugins\DiskLens-2.0.0.jar
+[21:36:51] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\DiskLens-2.0.0.jar'...
+[21:36:51] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\DiskLens-2.0.0.jar' in 307ms.
+[21:36:51] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:36:51] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:36:51] [Server thread/INFO]: [DiskLens] Платформа: Paper 1.21.11-132-c5eb079 (MC: 1.21.11)
+[21:36:51] [Server thread/INFO]: [DiskLens] Корень сервера: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:36:51] [Server thread/INFO]: [PlugMan] DiskLens-2.0.0 has been loaded and enabled.
+[21:36:53] [Server thread/INFO]: Сканирование не идёт. Кеш пуст.
+[21:36:54] [Server thread/INFO]: Сканирую папку сервера в фоне, это может занять время…
+[21:36:54] [Server thread/INFO]: [DiskLens] Сканирование запущено: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: [DiskLens] Сканирование завершено: 210 файлов, 273 МБ за 31 мс, ошибок доступа: 0, пропущено ссылок: 0
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: == ./ (корень сервера)  273 МБ, 210 файлов, 353 папок
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Раздел: занято 219 ГБ из 238 ГБ, свободно 18.9 ГБ (лимит хостинга может отличаться)
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: +- libraries/  74.8 МБ (27.4%)  141 ф.
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: \- ... ещё 24 (198 МБ, 72.6%)
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Скан: 0 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0
+[21:36:54] [Craft Scheduler Thread - 2 - DiskLens/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[21:36:54] [Server thread/INFO]: Сканирую папку сервера в фоне, это может занять время…
+[21:36:54] [Server thread/INFO]: [DiskLens] Сканирование запущено: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:36:54] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:36:59] [Server thread/INFO]: [PlugManX] Successfully removed provider for plugin: DiskLens
+[21:36:59] [Server thread/INFO]: [PlugMan] DiskLens has been unloaded.
+[21:37:00] [Server thread/INFO]: [PlugManX] Attempting to load plugins\DiskLens-2.0.0.jar
+[21:37:00] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[21:37:00] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[21:37:00] [Server thread/INFO]: [DiskLens] Платформа: Paper 1.21.11-132-c5eb079 (MC: 1.21.11)
+[21:37:00] [Server thread/INFO]: [DiskLens] Корень сервера: P:\FoliaRust\DiskUsagePlugin\itest\servers\paper-1.21.11
+[21:37:00] [Server thread/INFO]: [PlugMan] DiskLens-2.0.0 has been loaded and enabled.
+[21:37:00] [Server thread/INFO]: Stopping the server
+[21:37:00] [Server thread/INFO]: Stopping server
+[21:37:00] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[21:37:00] [Server thread/INFO]: [PlugManX] Disabling PlugManX v3.0.2
+[21:37:00] [Server thread/INFO]: Saving players
+[21:37:00] [Server thread/INFO]: Saving worlds
+[21:37:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world' in 0,00s
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[21:37:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_nether' in 0,00s
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[21:37:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'world_the_end' in 0,00s
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[21:37:01] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[21:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:37:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:37:01] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[21:37:01] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[21:37:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[21:37:01] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

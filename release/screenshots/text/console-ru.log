@@ -1,0 +1,158 @@
+[23:40:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.6+7-LTS; Azul Systems, Inc. Zulu21.40+17-CA) on Windows 11 10.0 (amd64)
+[23:40:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) for Minecraft 1.21.11
+[23:40:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:40:55] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[23:40:55] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - DiskLens (2.0.0)
+[23:41:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[23:41:30] [ServerMain/INFO]: Loaded 1470 recipes
+[23:41:30] [ServerMain/INFO]: Loaded 1584 advancements
+[23:41:30] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[23:41:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 762,9ms
+[23:41:31] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[23:41:31] [Server thread/INFO]: Loading properties
+[23:41:31] [Server thread/INFO]: This server is running Paper version 1.21.11-132-ver/1.21.11@c5eb079 (2026-05-11T11:43:09Z) (Implementing API version 1.21.11-R0.1-SNAPSHOT)
+[23:41:31] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:41:31] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:41:31] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:41:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 2 worker threads, 1 I/O threads
+[23:41:33] [Server thread/INFO]: Default game type: SURVIVAL
+[23:41:33] [Server thread/INFO]: Generating keypair
+[23:41:33] [Server thread/INFO]: Starting Minecraft server on *:25800
+[23:41:33] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:41:33] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:41:33] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[23:41:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:41:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:41:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:41:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:41:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:41:33] [Server thread/INFO]: Preparing level "lobby"
+[23:41:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:overworld'...
+[23:41:34] [Server thread/INFO]: Preparing spawn area: 100%
+[23:41:34] [Server thread/INFO]: Prepared spawn area in 2 ms
+[23:41:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_nether'...
+[23:41:34] [Server thread/INFO]: Prepared spawn area in 0 ms
+[23:41:34] [Server thread/INFO]: Loading 0 persistent chunks for world 'minecraft:the_end'...
+[23:41:34] [Server thread/INFO]: Prepared spawn area in 1 ms
+[23:41:34] [Server thread/INFO]: Done preparing level "lobby" (0.660s)
+[23:41:34] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[23:41:34] [Server thread/INFO]: [DiskLens] Platform: Paper 1.21.11-132-c5eb079 (MC: 1.21.11)
+[23:41:34] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\release\screenshots\server
+[23:41:35] [Server thread/INFO]: [spark] Starting background profiler...
+[23:41:35] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[23:41:35] [Server thread/INFO]: Running delayed init tasks
+[23:41:35] [Server thread/INFO]: Done (44.266s)! For help, type "help"
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (1.21.11)
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: However, you are 6 release(s) behind the latest stable release (26.3)!
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[23:41:35] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[23:41:40] [Server thread/INFO]: Конфиг и языки DiskLens перезагружены.
+[23:41:44] [Server thread/INFO]: Сканирую папку сервера в фоне, это может занять время…
+[23:41:44] [Server thread/INFO]: [DiskLens] Сканирование запущено: P:\FoliaRust\DiskUsagePlugin\release\screenshots\server
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: [DiskLens] Сканирование завершено: 287 файлов, 19.0 ГБ за 73 мс, ошибок доступа: 0, пропущено ссылок: 0
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == ./ (корень сервера)  19.0 ГБ, 287 файлов, 431 папок
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Раздел: занято 222 ГБ из 238 ГБ, свободно 16.7 ГБ (лимит хостинга может отличаться)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- backups/  10.0 ГБ (52.6%)  4 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- world-2024-06-01.zip  3.4 ГБ (34.2%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- world-2024-05-15.zip  3.3 ГБ (32.7%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- world-2024-05-01.zip  3.1 ГБ (31.3%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- plugins-2024-06-01.zip  180 МБ (1.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- bluemap/  3.5 ГБ (18.2%)  67 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- web/  3.5 ГБ (100.0%)  67 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- plugins/  2.2 ГБ (11.6%)  19 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- CoreProtect/  1.4 ГБ (64.3%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- Dynmap/  700 МБ (31.0%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- WorldEdit/  48.0 МБ (2.1%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- .paper-remapped/  33.3 МБ (1.5%)  7 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- Essentials/  24.0 МБ (1.1%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- DiskLens-2.0.0.jar  73.1 КБ (0.0%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- DiskLens/  56.3 КБ (0.0%)  4 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- spark/  702 Б (0.0%)  2 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- bStats/  337 Б (0.0%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- world/  1.9 ГБ (9.9%)  4 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- region/  1.9 ГБ (100.0%)  4 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- logs/  940 МБ (4.8%)  17 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- debug.log  310 МБ (33.0%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-01-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-02-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-03-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-04-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-05-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-06-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-07-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-08-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- 2024-06-09-1.log.gz  45.0 МБ (4.8%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- ... ещё 7 (225 МБ, 23.9%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- world_nether/  220 МБ (1.1%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- region/  220 МБ (100.0%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- world_the_end/  130 МБ (0.7%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- DIM1/  130 МБ (100.0%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- libraries/  72.8 МБ (0.4%)  114 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- it/  22.9 МБ (31.4%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- org/  22.7 МБ (31.1%)  39 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- com/  10.4 МБ (14.3%)  19 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- io/  7.5 МБ (10.3%)  23 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- net/  4.5 МБ (6.2%)  24 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- me/  2.9 МБ (4.0%)  2 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- at/  667 КБ (0.9%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- commons-io/  551 КБ (0.7%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- commons-codec/  352 КБ (0.5%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  +- commons-lang/  278 КБ (0.4%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- ... ещё 2 (221 КБ, 0.3%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- cache/  53.7 МБ (0.3%)  1 ф.
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: |  \- mojang_1.21.11.jar  53.7 МБ (100.0%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: +- paper.jar  52.3 МБ (0.3%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: \- ... ещё 20 (47.4 МБ, 0.2%)
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Скан: 0 с назад за 0.1 с, ошибок доступа: 0, пропущено ссылок: 0
+[23:41:44] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]: == Самые большие файлы сервера (10 из 287, всего 19.0 ГБ)
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   1. 3.4 ГБ  backups/world-2024-06-01.zip
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   2. 3.3 ГБ  backups/world-2024-05-15.zip
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   3. 3.1 ГБ  backups/world-2024-05-01.zip
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   4. 1.4 ГБ  plugins/CoreProtect/database.db
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   5. 900 МБ  bluemap/web/maps/world/hires/lod.json
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   6. 700 МБ  plugins/Dynmap/web/tiles/world/flat/0_0.png
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   7. 600 МБ  bluemap/web/maps/nether/tiles/0/x1/z1.png
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   8. 480 МБ  world/region/r.2.0.mca
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:   9. 480 МБ  world/region/r.3.0.mca
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]:  10. 480 МБ  world/region/r.0.0.mca
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Скан: 12 с назад за 0.1 с, ошибок доступа: 0, пропущено ссылок: 0
+[23:41:56] [Craft Scheduler Thread - 3 - DiskLens/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[23:42:03] [Server thread/INFO]: Сканирование не идёт. В кеше результат 18 с назад: 19.0 ГБ, 287 файлов.
+[23:42:07] [Server thread/INFO]: Stopping the server
+[23:42:07] [Server thread/INFO]: Stopping server
+[23:42:07] [Server thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[23:42:07] [Server thread/INFO]: Saving players
+[23:42:07] [Server thread/INFO]: Saving worlds
+[23:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:overworld
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'lobby' in 0,00s
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'lobby'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'lobby'
+[23:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby_nether]'/minecraft:the_nether
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby_nether'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby_nether'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby_nether'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'lobby_nether' in 0,00s
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'lobby_nether'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'lobby_nether'
+[23:42:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby_the_end]'/minecraft:the_end
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby_the_end'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby_the_end'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby_the_end'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'lobby_the_end' in 0,00s
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'lobby_the_end'
+[23:42:07] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'lobby_the_end'
+[23:42:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[23:42:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:42:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:42:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:42:07] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[23:42:07] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[23:42:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[23:42:07] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

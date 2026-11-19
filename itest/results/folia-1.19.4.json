@@ -1,0 +1,142 @@
+{
+ "case": "folia-1.19.4",
+ "checks": [
+  [
+   "server started",
+   "PASS",
+   "no 'Done (' in log"
+  ],
+  [
+   "plugin enabled",
+   "PASS",
+   ""
+  ],
+  [
+   "platform detected",
+   "PASS",
+   [
+    "Platform: Folia git-Folia-39 (MC: 1.19.4) (Folia schedulers)"
+   ]
+  ],
+  [
+   "config auto-update: keys added",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: user value kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: comment kept",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: version bumped",
+   "PASS",
+   ""
+  ],
+  [
+   "config auto-update: backup",
+   "PASS",
+   ""
+  ],
+  [
+   "lang files installed",
+   "PASS",
+   ""
+  ],
+  [
+   "console: scan finished",
+   "PASS",
+   ""
+  ],
+  [
+   "console: tree header",
+   "PASS",
+   ""
+  ],
+  [
+   "console: ascii tree + backup found",
+   "PASS",
+   ""
+  ],
+  [
+   "console: no colour codes",
+   "PASS",
+   ""
+  ],
+  [
+   "alias /du works",
+   "PASS",
+   ""
+  ],
+  [
+   "files list",
+   "PASS",
+   ""
+  ],
+  [
+   "export report",
+   "PASS",
+   ""
+  ],
+  [
+   "path guard",
+   "PASS",
+   ""
+  ],
+  [
+   "status (cache)",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: tree",
+   "FAIL",
+   "Error executing: disklens 1 2 (null)"
+  ],
+  [
+   "rcon: plain text",
+   "PASS",
+   ""
+  ],
+  [
+   "rcon: files",
+   "FAIL",
+   "Error executing: du files 2 (null)"
+  ],
+  [
+   "rcon: path guard",
+   "FAIL",
+   "Error executing: du ../ (null)"
+  ],
+  [
+   "reload",
+   "PASS",
+   ""
+  ],
+  [
+   "russian output",
+   "PASS",
+   ""
+  ],
+  [
+   "plugman lifecycle",
+   "SKIP",
+   "PlugManX did not enable on this server"
+  ],
+  [
+   "no DiskLens errors in log",
+   "PASS",
+   []
+  ],
+  [
+   "clean shutdown",
+   "PASS",
+   ""
+  ]
+ ]
+}

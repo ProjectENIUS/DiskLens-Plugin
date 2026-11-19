@@ -1,0 +1,184 @@
+[23:38:35] [ServerMain/ERROR]: [DirectoryProviderSource] Error loading plugin: File 'plugins\PlugManX.jar' failed to load!
+java.lang.RuntimeException: File 'plugins\PlugManX.jar' failed to load!
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:59) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.lambda$registerProviders$2(DirectoryProviderSource.java:32) ~[folia-1.19.4.jar:git-Folia-39]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:30) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.source.DirectoryProviderSource.registerProviders(DirectoryProviderSource.java:14) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.util.EntrypointUtil.registerProvidersFromSource(EntrypointUtil.java:14) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.PluginInitializerManager.load(PluginInitializerManager.java:100) ~[folia-1.19.4.jar:git-Folia-39]
+	at net.minecraft.server.Main.main(Main.java:126) ~[folia-1.19.4.jar:git-Folia-39]
+	at org.bukkit.craftbukkit.Main.main(Main.java:309) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paperclip.Paperclip.lambda$main$0(Paperclip.java:42) ~[app:?]
+	at java.lang.Thread.run(Thread.java:842) ~[?:?]
+Caused by: org.spongepowered.configurate.serialize.SerializationException: [api-version] of type java.lang.String: Provided plugin's version (1.20) is not supported on this version.
+	at io.papermc.paper.plugin.provider.configuration.serializer.constraints.PluginConfigConstraints$PluginVersion$Factory.lambda$make$0(PluginConfigConstraints.java:80) ~[folia-1.19.4.jar:git-Folia-39]
+	at org.spongepowered.configurate.objectmapping.FieldData.validate(FieldData.java:131) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load0(ObjectMapperImpl.java:65) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperImpl.load(ObjectMapperImpl.java:48) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.objectmapping.ObjectMapperFactoryImpl.deserialize(ObjectMapperFactoryImpl.java:204) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.AbstractConfigurationNode.get(AbstractConfigurationNode.java:151) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.get(ConfigurationNode.java:520) ~[configurate-core-4.1.2.jar:?]
+	at org.spongepowered.configurate.ConfigurationNode.require(ConfigurationNode.java:407) ~[configurate-core-4.1.2.jar:?]
+	at io.papermc.paper.plugin.provider.configuration.PaperPluginMeta.create(PaperPluginMeta.java:102) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.create(PaperPluginProviderFactory.java:57) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.type.paper.PaperPluginProviderFactory.create(PaperPluginProviderFactory.java:23) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.getConfig(PluginFileType.java:73) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.type.PluginFileType.register(PluginFileType.java:66) ~[folia-1.19.4.jar:git-Folia-39]
+	at io.papermc.paper.plugin.provider.source.FileProviderSource.registerProviders(FileProviderSource.java:57) ~[folia-1.19.4.jar:git-Folia-39]
+	... 20 more
+[23:38:42] [ServerMain/INFO]: [STDERR]: You have used the Spigot command line EULA agreement flag.
+[23:38:42] [ServerMain/INFO]: [STDERR]: By using this setting you are indicating your agreement to Mojang's EULA (https://account.mojang.com/documents/minecraft_eula).
+[23:38:42] [ServerMain/INFO]: [STDERR]: If you do not agree to the above EULA please stop your server and remove this flag immediately.
+[23:38:42] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23:38:43] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[23:38:44] [ServerMain/ERROR]: No key layers in MapLike[{}]
+[23:38:45] [ServerMain/INFO]: Loaded 7 recipes
+[23:38:46] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[23:38:46] [Server thread/INFO]: Loading properties
+[23:38:46] [Server thread/INFO]: This server is running Folia version git-Folia-39 (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT) (Git: ca3b7ad)
+[23:38:46] [Server thread/WARN]: [!] The timings system cannot be enabled on Folia, and has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[23:38:46] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:38:46] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:38:46] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 2 worker threads, and gen parallelism of 2 threads
+[23:38:46] [Server thread/INFO]: [io.papermc.paper.threadedregions.TickRegions] Regionised ticking is enabled with 1 tick threads
+[23:38:47] [Server thread/INFO]: Default game type: SURVIVAL
+[23:38:47] [Server thread/INFO]: Generating keypair
+[23:38:47] [Server thread/INFO]: Starting Minecraft server on *:25611
+[23:38:47] [Server thread/INFO]: Using default channel type
+[23:38:47] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[23:38:47] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[23:38:48] [Server thread/INFO]: [DiskLens] Loading server plugin DiskLens v2.0.0
+[23:38:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:38:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:38:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:38:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:38:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:38:48] [Server thread/INFO]: Preparing level "world"
+[23:38:48] [Server thread/ERROR]: No key layers in MapLike[{}]
+[23:38:48] [Server thread/ERROR]: No key layers in MapLike[{}]
+[23:38:48] [Server thread/ERROR]: No key layers in MapLike[{}]
+[23:38:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:38:48] [Server thread/INFO]: Time elapsed: 2 ms
+[23:38:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:38:48] [Server thread/INFO]: Time elapsed: 1 ms
+[23:38:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:38:48] [Server thread/INFO]: Time elapsed: 1 ms
+[23:38:48] [Server thread/INFO]: [DiskLens] Enabling DiskLens v2.0.0
+[23:38:48] [Server thread/INFO]: [DiskLens] config.yml: +[language, default-language, command-aliases, default-depth, default-top, files-per-folder, largest-files, max-chat-lines, max-console-lines, console-ascii-tree, report-ascii-tree, progress-log-seconds]
+[23:38:48] [Server thread/INFO]: [DiskLens] Platform: Folia git-Folia-39 (MC: 1.19.4) (Folia schedulers)
+[23:38:48] [Server thread/INFO]: [DiskLens] Server root: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-1.19.4
+[23:38:48] [Server thread/INFO]: Starting remote control listener
+[23:38:48] [Server thread/INFO]: Thread RCON Listener started
+[23:38:48] [Server thread/INFO]: RCON running on 0.0.0.0:25711
+[23:38:48] [Server thread/INFO]: Done (2.141s)! For help, type "help"
+[23:38:48] [Region Scheduler Thread #0/INFO]: Initialising world 'world' before it can be ticked...
+[23:38:49] [Region Scheduler Thread #0/INFO]: Initialised world 'world'
+[23:38:49] [Region Scheduler Thread #0/INFO]: Timings Reset
+[23:38:50] [Region Scheduler Thread #0/INFO]: Scanning the server folder in the background, this may take a while…
+[23:38:50] [Region Scheduler Thread #0/INFO]: [DiskLens] Scan started: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-1.19.4
+[23:38:50] [Region Scheduler Thread #0/INFO]: Initialising world 'world_nether' before it can be ticked...
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: [DiskLens] Scan finished: 149 files, 200 MB in 88 ms, access errors: 0, skipped links: 0
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: == ./ (server root)  200 MB, 149 files, 304 folders
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: Partition: 221 GB used of 238 GB, 16.8 GB free (your hosting quota may differ)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- libraries/  63.1 MB (31.6%)  111 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- it/  22.3 MB (35.3%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- org/  20.3 MB (32.2%)  37 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- com/  9.1 MB (14.4%)  17 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- io/  4.6 MB (7.4%)  36 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- net/  4.0 MB (6.4%)  15 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- dev/  1.8 MB (2.9%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- commons-codec/  327 KB (0.5%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- commons-io/  319 KB (0.5%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- commons-lang/  278 KB (0.4%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- javax/  2.4 KB (0.0%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- cache/  45.3 MB (22.7%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- mojang_1.19.4.jar  45.3 MB (100.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- server.jar  40.9 MB (20.5%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- backups/  30.0 MB (15.0%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- old-backup.zip  30.0 MB (100.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- versions/  20.1 MB (10.1%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- 1.19.4/  20.1 MB (100.0%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- plugins/  341 KB (0.2%)  7 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- PlugManX.jar  257 KB (75.5%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- DiskLens-2.0.0.jar  73.1 KB (21.5%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- DiskLens/  9.9 KB (2.9%)  4 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- bStats/  337 B (0.1%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- config/  11.3 KB (0.0%)  2 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  +- paper-world-defaults.yml  7.3 KB (64.5%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- paper-global.yml  4.0 KB (35.5%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- logs/  9.2 KB (0.0%)  1 f.
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: |  \- latest.log  9.2 KB (100.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- spigot.yml  4.6 KB (0.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: +- server.properties  1.3 KB (0.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: \- ... 15 more (1.7 KB, 0.0%)
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[23:38:50] [Folia Async Scheduler Thread #0/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:38:52] [Region Scheduler Thread #0/INFO]: Initialised world 'world_nether'
+[23:38:52] [Region Scheduler Thread #0/INFO]: Initialising world 'world_the_end' before it can be ticked...
+[23:38:52] [Region Scheduler Thread #0/INFO]: Initialised world 'world_the_end'
+[23:38:52] [Folia Async Scheduler Thread #1/INFO]: == backups/  30.0 MB, 1 files, 0 folders
+[23:38:52] [Folia Async Scheduler Thread #1/INFO]: Partition: 221 GB used of 238 GB, 16.8 GB free (your hosting quota may differ)
+[23:38:52] [Folia Async Scheduler Thread #1/INFO]: \- old-backup.zip  30.0 MB (100.0%)
+[23:38:52] [Folia Async Scheduler Thread #1/INFO]: Scan: 2 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[23:38:52] [Folia Async Scheduler Thread #1/INFO]: Rescan: /disklens backups/ -r   Report to file: /disklens export backups/
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]: == Largest files on the server (10 of 149, total 200 MB)
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   1. 45.3 MB  cache/mojang_1.19.4.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   2. 40.9 MB  server.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   3. 30.0 MB  backups/old-backup.zip
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   4. 22.3 MB  libraries/it/unimi/dsi/fastutil/8.5.9/fastutil-8.5.9.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   5. 20.1 MB  versions/1.19.4/folia-1.19.4.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   6. 12.2 MB  libraries/org/xerial/sqlite-jdbc/3.41.0.0/sqlite-jdbc-3.41.0.0.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   7. 2.8 MB  libraries/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   8. 2.4 MB  libraries/com/mysql/mysql-connector-j/8.0.32/mysql-connector-j-8.0.32.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:   9. 1.8 MB  libraries/dev/folia/folia-api/1.19.4-R0.1-SNAPSHOT/folia-api-1.19.4-R0.1-SNAPSHOT.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]:  10. 1.8 MB  libraries/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]: Scan: 3 s ago, took 0.1 s, access errors: 0, skipped links: 0
+[23:38:53] [Folia Async Scheduler Thread #2/INFO]: Rescan: /disklens ./ -r   Report to file: /disklens export ./
+[23:38:54] [Folia Async Scheduler Thread #3/INFO]: [DiskLens] Report written: P:\FoliaRust\DiskUsagePlugin\itest\servers\folia-1.19.4\plugins\DiskLens\reports\report-20261119-233853.txt
+[23:38:54] [Region Scheduler Thread #0/INFO]: You can't leave the server folder.
+[23:38:54] [Region Scheduler Thread #0/INFO]: No scan is running. Cached result from 4 s ago: 200 MB, 149 files.
+[23:38:55] [RCON Listener #1/INFO]: Thread RCON Client /127.0.0.1 started
+[23:38:55] [RCON Client /127.0.0.1 #2/INFO]: Thread RCON Client /127.0.0.1 shutting down
+[23:38:55] [Region Scheduler Thread #0/INFO]: Конфиг и языки DiskLens перезагружены.
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: == ./ (корень сервера)  200 МБ, 149 файлов, 304 папок
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: Раздел: занято 221 ГБ из 238 ГБ, свободно 16.8 ГБ (лимит хостинга может отличаться)
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: +- libraries/  63.1 МБ (31.6%)  111 ф.
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: \- ... ещё 24 (137 МБ, 68.4%)
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: Скан: 5 с назад за 0.1 с, ошибок доступа: 0, пропущено ссылок: 0
+[23:38:55] [Folia Async Scheduler Thread #3/INFO]: Пересканировать: /disklens ./ -r   Отчёт в файл: /disklens export ./
+[23:38:56] [Region Scheduler Thread #0/INFO]: Stopping the server
+[23:38:56] [Region shutdown thread/INFO]: [RegionShutdownThread] Awaiting scheduler termination for 60s
+[23:38:56] [Region shutdown thread/INFO]: [RegionShutdownThread] Scheduler halted
+[23:38:56] [Region shutdown thread/INFO]: Stopping server
+[23:38:56] [Region shutdown thread/INFO]: [DiskLens] Disabling DiskLens v2.0.0
+[23:38:56] [Region shutdown thread/INFO]: [RegionShutdownThread] Halting chunk systems
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[23:38:56] [Region shutdown thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[23:38:56] [Region shutdown thread/INFO]: [RegionShutdownThread] Halted chunk systems
+[23:38:56] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [0, 0] in world 'world'
+[23:38:57] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 961 block chunks, 81 entity chunks, 0 poi chunks in world 'world' in 1,19s
+[23:38:58] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [0, 0] in world 'world_nether'
+[23:39:00] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 887 block chunks, 25 entity chunks, 0 poi chunks in world 'world_nether' in 2,29s
+[23:39:00] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving chunks around region around chunk [0, 0] in world 'world_the_end'
+[23:39:01] [Region shutdown thread/INFO]: [ChunkHolderManager] Saved 961 block chunks, 81 entity chunks, 0 poi chunks in world 'world_the_end' in 1,22s
+[23:39:01] [Region shutdown thread/INFO]: [RegionShutdownThread] Saving players
+[23:39:01] [Region shutdown thread/INFO]: Flushing Chunk IO
+[23:39:01] [Region shutdown thread/INFO]: Closing Thread Pool
+[23:39:01] [Region shutdown thread/INFO]: Closing Server

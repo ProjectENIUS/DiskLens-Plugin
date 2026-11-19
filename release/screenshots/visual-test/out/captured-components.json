@@ -1,0 +1,6616 @@
+{
+ "tree": [
+  [
+   {
+    "t": "Scanning the server folder in the background, this may take a while…",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "━━ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "./ (server root)",
+    "c": "aqua",
+    "b": true,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18.3 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ", 4 263 files, 621 folders",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Partition: 222 GB used of 238 GB, 15.9 GB free (your hosting quota may differ)",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "backups/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens backups/ 2 10",
+    "h": "Open backups/"
+   },
+   {
+    "t": "  10.0 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (54.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.4 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (34.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-15.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.3 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (32.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.1 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  180 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bluemap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/ 2 10",
+    "h": "Open bluemap/"
+   },
+   {
+    "t": "  2.9 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (15.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "web/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/web/ 2 10",
+    "h": "Open bluemap/web/"
+   },
+   {
+    "t": "  2.9 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/ 2 10",
+    "h": "Open plugins/"
+   },
+   {
+    "t": "  2.2 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (12.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "CoreProtect/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/CoreProtect/ 2 10",
+    "h": "Open plugins/CoreProtect/"
+   },
+   {
+    "t": "  1.4 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (64.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Dynmap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Dynmap/ 2 10",
+    "h": "Open plugins/Dynmap/"
+   },
+   {
+    "t": "  700 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "WorldEdit/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/WorldEdit/ 2 10",
+    "h": "Open plugins/WorldEdit/"
+   },
+   {
+    "t": "  48.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (2.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ".paper-remapped/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/.paper-remapped/ 2 10",
+    "h": "Open plugins/.paper-remapped/"
+   },
+   {
+    "t": "  33.3 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  7 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Essentials/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Essentials/ 2 10",
+    "h": "Open plugins/Essentials/"
+   },
+   {
+    "t": "  24.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens-2.0.0.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  73.1 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/DiskLens/ 2 10",
+    "h": "Open plugins/DiskLens/"
+   },
+   {
+    "t": "  10.1 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "spark/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/spark/ 2 10",
+    "h": "Open plugins/spark/"
+   },
+   {
+    "t": "  702 B",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bStats/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/bStats/ 2 10",
+    "h": "Open plugins/bStats/"
+   },
+   {
+    "t": "  337 B",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/ 2 10",
+    "h": "Open world/"
+   },
+   {
+    "t": "  1.9 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/region/ 2 10",
+    "h": "Open world/region/"
+   },
+   {
+    "t": "  1.9 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "logs/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens logs/ 2 10",
+    "h": "Open logs/"
+   },
+   {
+    "t": "  940 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (5.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  16 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "debug.log",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  310 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (33.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-01-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-02-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-03-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-04-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-05-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-06-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-07-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-08-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-09-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 6 more (225 MB, 23.9%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world_nether/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/ 2 10",
+    "h": "Open world_nether/"
+   },
+   {
+    "t": "  220 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/region/ 2 10",
+    "h": "Open world_nether/region/"
+   },
+   {
+    "t": "  220 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "libraries/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/ 2 10",
+    "h": "Open libraries/"
+   },
+   {
+    "t": "  72.8 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  114 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "it/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/it/ 2 10",
+    "h": "Open libraries/it/"
+   },
+   {
+    "t": "  22.9 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "org/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/org/ 2 10",
+    "h": "Open libraries/org/"
+   },
+   {
+    "t": "  22.7 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  39 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "com/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/com/ 2 10",
+    "h": "Open libraries/com/"
+   },
+   {
+    "t": "  10.4 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (14.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  19 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/io/ 2 10",
+    "h": "Open libraries/io/"
+   },
+   {
+    "t": "  7.5 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  23 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "net/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/net/ 2 10",
+    "h": "Open libraries/net/"
+   },
+   {
+    "t": "  4.5 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (6.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  24 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "me/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/me/ 2 10",
+    "h": "Open libraries/me/"
+   },
+   {
+    "t": "  2.9 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "at/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/at/ 2 10",
+    "h": "Open libraries/at/"
+   },
+   {
+    "t": "  667 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.9%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-io/ 2 10",
+    "h": "Open libraries/commons-io/"
+   },
+   {
+    "t": "  551 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-codec/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-codec/ 2 10",
+    "h": "Open libraries/commons-codec/"
+   },
+   {
+    "t": "  352 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-lang/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-lang/ 2 10",
+    "h": "Open libraries/commons-lang/"
+   },
+   {
+    "t": "  278 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 2 more (221 KB, 0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "cache/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens cache/ 2 10",
+    "h": "Open cache/"
+   },
+   {
+    "t": "  53.7 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "mojang_1.21.11.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  53.7 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "paper.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  52.3 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "versions/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/ 2 10",
+    "h": "Open versions/"
+   },
+   {
+    "t": "  28.2 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "1.21.11/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/1.21.11/ 2 10",
+    "h": "Open versions/1.21.11/"
+   },
+   {
+    "t": "  28.2 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "└─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 18 more (29.3 KB, 0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Scan: 0 s ago, took 0.1 s, access errors: 0, skipped links: 0",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Rescan]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens ./ -r",
+    "h": "Scan again, ignoring the cache"
+   },
+   {
+    "t": " ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Report to file]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens export ./",
+    "h": "Write the full report to plugins/DiskLens/reports"
+   }
+  ]
+ ],
+ "plugins": [
+  [
+   {
+    "t": "━━ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins/",
+    "c": "aqua",
+    "b": true,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2.2 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ", 18 files, 22 folders",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[↑ up]",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens ./ 1 5",
+    "h": "Open the parent folder"
+   }
+  ],
+  [
+   {
+    "t": "Partition: 222 GB used of 238 GB, 15.9 GB free (your hosting quota may differ)",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "CoreProtect/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/CoreProtect/ 1 5",
+    "h": "Open plugins/CoreProtect/"
+   },
+   {
+    "t": "  1.4 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (64.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Dynmap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Dynmap/ 1 5",
+    "h": "Open plugins/Dynmap/"
+   },
+   {
+    "t": "  700 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "WorldEdit/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/WorldEdit/ 1 5",
+    "h": "Open plugins/WorldEdit/"
+   },
+   {
+    "t": "  48.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (2.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ".paper-remapped/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/.paper-remapped/ 1 5",
+    "h": "Open plugins/.paper-remapped/"
+   },
+   {
+    "t": "  33.3 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  7 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Essentials/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Essentials/ 1 5",
+    "h": "Open plugins/Essentials/"
+   },
+   {
+    "t": "  24.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "└─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 4 more (84.3 KB, 0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Scan: 1 s ago, took 0.1 s, access errors: 0, skipped links: 0",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Rescan]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/ -r",
+    "h": "Scan again, ignoring the cache"
+   },
+   {
+    "t": " ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Report to file]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens export plugins/",
+    "h": "Write the full report to plugins/DiskLens/reports"
+   }
+  ]
+ ],
+ "files": [
+  [
+   {
+    "t": "━━ Largest files on the server (5 of 4 263, total 18.3 GB)",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "  1. ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "3.4 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  backups/world-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "  2. ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "3.3 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  backups/world-2024-05-15.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "  3. ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "3.1 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  backups/world-2024-05-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "  4. ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "1.4 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  plugins/CoreProtect/database.db",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "  5. ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "900 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  bluemap/web/maps/world/hires/lod.json",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Scan: 2 s ago, took 0.1 s, access errors: 0, skipped links: 0",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Rescan]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens ./ -r",
+    "h": "Scan again, ignoring the cache"
+   },
+   {
+    "t": " ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Report to file]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens export ./",
+    "h": "Write the full report to plugins/DiskLens/reports"
+   }
+  ]
+ ],
+ "status": [
+  [
+   {
+    "t": "No scan is running. Cached result from 3 s ago: 18.3 GB, 4 263 files.",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ]
+ ],
+ "rescan": [
+  [
+   {
+    "t": "Scanning the server folder in the background, this may take a while…",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "━━ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "./ (server root)",
+    "c": "aqua",
+    "b": true,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18.3 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ", 4 263 files, 621 folders",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Partition: 222 GB used of 238 GB, 15.9 GB free (your hosting quota may differ)",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "backups/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens backups/ 2 10",
+    "h": "Open backups/"
+   },
+   {
+    "t": "  10.0 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (54.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.4 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (34.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-15.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.3 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (32.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.1 GB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  180 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bluemap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/ 2 10",
+    "h": "Open bluemap/"
+   },
+   {
+    "t": "  2.9 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (15.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "web/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/web/ 2 10",
+    "h": "Open bluemap/web/"
+   },
+   {
+    "t": "  2.9 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/ 2 10",
+    "h": "Open plugins/"
+   },
+   {
+    "t": "  2.2 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (12.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "CoreProtect/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/CoreProtect/ 2 10",
+    "h": "Open plugins/CoreProtect/"
+   },
+   {
+    "t": "  1.4 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (64.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Dynmap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Dynmap/ 2 10",
+    "h": "Open plugins/Dynmap/"
+   },
+   {
+    "t": "  700 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "WorldEdit/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/WorldEdit/ 2 10",
+    "h": "Open plugins/WorldEdit/"
+   },
+   {
+    "t": "  48.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (2.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ".paper-remapped/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/.paper-remapped/ 2 10",
+    "h": "Open plugins/.paper-remapped/"
+   },
+   {
+    "t": "  33.3 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  7 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Essentials/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Essentials/ 2 10",
+    "h": "Open plugins/Essentials/"
+   },
+   {
+    "t": "  24.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens-2.0.0.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  73.1 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/DiskLens/ 2 10",
+    "h": "Open plugins/DiskLens/"
+   },
+   {
+    "t": "  10.1 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "spark/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/spark/ 2 10",
+    "h": "Open plugins/spark/"
+   },
+   {
+    "t": "  702 B",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bStats/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/bStats/ 2 10",
+    "h": "Open plugins/bStats/"
+   },
+   {
+    "t": "  337 B",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/ 2 10",
+    "h": "Open world/"
+   },
+   {
+    "t": "  1.9 GB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/region/ 2 10",
+    "h": "Open world/region/"
+   },
+   {
+    "t": "  1.9 GB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "logs/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens logs/ 2 10",
+    "h": "Open logs/"
+   },
+   {
+    "t": "  940 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (5.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  16 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "debug.log",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  310 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (33.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-01-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-02-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-03-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-04-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-05-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-06-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-07-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-08-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-09-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 6 more (225 MB, 23.9%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world_nether/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/ 2 10",
+    "h": "Open world_nether/"
+   },
+   {
+    "t": "  220 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/region/ 2 10",
+    "h": "Open world_nether/region/"
+   },
+   {
+    "t": "  220 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "libraries/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/ 2 10",
+    "h": "Open libraries/"
+   },
+   {
+    "t": "  72.8 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  114 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "it/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/it/ 2 10",
+    "h": "Open libraries/it/"
+   },
+   {
+    "t": "  22.9 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "org/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/org/ 2 10",
+    "h": "Open libraries/org/"
+   },
+   {
+    "t": "  22.7 MB",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  39 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "com/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/com/ 2 10",
+    "h": "Open libraries/com/"
+   },
+   {
+    "t": "  10.4 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (14.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  19 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/io/ 2 10",
+    "h": "Open libraries/io/"
+   },
+   {
+    "t": "  7.5 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  23 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "net/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/net/ 2 10",
+    "h": "Open libraries/net/"
+   },
+   {
+    "t": "  4.5 MB",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (6.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  24 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "me/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/me/ 2 10",
+    "h": "Open libraries/me/"
+   },
+   {
+    "t": "  2.9 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "at/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/at/ 2 10",
+    "h": "Open libraries/at/"
+   },
+   {
+    "t": "  667 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.9%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-io/ 2 10",
+    "h": "Open libraries/commons-io/"
+   },
+   {
+    "t": "  551 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-codec/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-codec/ 2 10",
+    "h": "Open libraries/commons-codec/"
+   },
+   {
+    "t": "  352 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-lang/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-lang/ 2 10",
+    "h": "Open libraries/commons-lang/"
+   },
+   {
+    "t": "  278 KB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 2 more (221 KB, 0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "cache/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens cache/ 2 10",
+    "h": "Open cache/"
+   },
+   {
+    "t": "  53.7 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "mojang_1.21.11.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  53.7 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "paper.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  52.3 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "versions/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/ 2 10",
+    "h": "Open versions/"
+   },
+   {
+    "t": "  28.2 MB",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "1.21.11/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/1.21.11/ 2 10",
+    "h": "Open versions/1.21.11/"
+   },
+   {
+    "t": "  28.2 MB",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 f.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "└─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… 18 more (29.3 KB, 0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Scan: 0 s ago, took 0.0 s, access errors: 0, skipped links: 0",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Rescan]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens ./ -r",
+    "h": "Scan again, ignoring the cache"
+   },
+   {
+    "t": " ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Report to file]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens export ./",
+    "h": "Write the full report to plugins/DiskLens/reports"
+   }
+  ]
+ ],
+ "russian": [
+  [
+   {
+    "t": "━━ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "./ (корень сервера)",
+    "c": "aqua",
+    "b": true,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18.3 ГБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ", 4 263 файлов, 621 папок",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Раздел: занято 222 ГБ из 238 ГБ, свободно 15.9 ГБ (лимит хостинга может отличаться)",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "backups/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens backups/ 2 10",
+    "h": "Открыть backups/"
+   },
+   {
+    "t": "  10.0 ГБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (54.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.4 ГБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (34.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-15.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.3 ГБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (32.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world-2024-05-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3.1 ГБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins-2024-06-01.zip",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  180 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bluemap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/ 2 10",
+    "h": "Открыть bluemap/"
+   },
+   {
+    "t": "  2.9 ГБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (15.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "web/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens bluemap/web/ 2 10",
+    "h": "Открыть bluemap/web/"
+   },
+   {
+    "t": "  2.9 ГБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  66 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "plugins/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/ 2 10",
+    "h": "Открыть plugins/"
+   },
+   {
+    "t": "  2.2 ГБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (12.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  18 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "CoreProtect/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/CoreProtect/ 2 10",
+    "h": "Открыть plugins/CoreProtect/"
+   },
+   {
+    "t": "  1.4 ГБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (64.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Dynmap/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Dynmap/ 2 10",
+    "h": "Открыть plugins/Dynmap/"
+   },
+   {
+    "t": "  700 МБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "WorldEdit/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/WorldEdit/ 2 10",
+    "h": "Открыть plugins/WorldEdit/"
+   },
+   {
+    "t": "  48.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (2.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": ".paper-remapped/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/.paper-remapped/ 2 10",
+    "h": "Открыть plugins/.paper-remapped/"
+   },
+   {
+    "t": "  33.3 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  7 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "Essentials/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/Essentials/ 2 10",
+    "h": "Открыть plugins/Essentials/"
+   },
+   {
+    "t": "  24.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens-2.0.0.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  73.1 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "DiskLens/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/DiskLens/ 2 10",
+    "h": "Открыть plugins/DiskLens/"
+   },
+   {
+    "t": "  10.1 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  3 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "spark/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/spark/ 2 10",
+    "h": "Открыть plugins/spark/"
+   },
+   {
+    "t": "  702 Б",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "bStats/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens plugins/bStats/ 2 10",
+    "h": "Открыть plugins/bStats/"
+   },
+   {
+    "t": "  337 Б",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/ 2 10",
+    "h": "Открыть world/"
+   },
+   {
+    "t": "  1.9 ГБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world/region/ 2 10",
+    "h": "Открыть world/region/"
+   },
+   {
+    "t": "  1.9 ГБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  4 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "logs/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens logs/ 2 10",
+    "h": "Открыть logs/"
+   },
+   {
+    "t": "  940 МБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (5.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  16 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "debug.log",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  310 МБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (33.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-01-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-02-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-03-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-04-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-05-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-06-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-07-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-08-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "2024-06-09-1.log.gz",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  45.0 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.8%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… ещё 6 (225 МБ, 23.9%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "world_nether/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/ 2 10",
+    "h": "Открыть world_nether/"
+   },
+   {
+    "t": "  220 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (1.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "region/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens world_nether/region/ 2 10",
+    "h": "Открыть world_nether/region/"
+   },
+   {
+    "t": "  220 МБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "libraries/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/ 2 10",
+    "h": "Открыть libraries/"
+   },
+   {
+    "t": "  72.8 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  114 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "it/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/it/ 2 10",
+    "h": "Открыть libraries/it/"
+   },
+   {
+    "t": "  22.9 МБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "org/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/org/ 2 10",
+    "h": "Открыть libraries/org/"
+   },
+   {
+    "t": "  22.7 МБ",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (31.1%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  39 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "com/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/com/ 2 10",
+    "h": "Открыть libraries/com/"
+   },
+   {
+    "t": "  10.4 МБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (14.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  19 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/io/ 2 10",
+    "h": "Открыть libraries/io/"
+   },
+   {
+    "t": "  7.5 МБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (10.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  23 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "net/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/net/ 2 10",
+    "h": "Открыть libraries/net/"
+   },
+   {
+    "t": "  4.5 МБ",
+    "c": "yellow",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (6.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  24 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "me/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/me/ 2 10",
+    "h": "Открыть libraries/me/"
+   },
+   {
+    "t": "  2.9 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (4.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  2 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "at/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/at/ 2 10",
+    "h": "Открыть libraries/at/"
+   },
+   {
+    "t": "  667 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.9%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-io/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-io/ 2 10",
+    "h": "Открыть libraries/commons-io/"
+   },
+   {
+    "t": "  551 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.7%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-codec/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-codec/ 2 10",
+    "h": "Открыть libraries/commons-codec/"
+   },
+   {
+    "t": "  352 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.5%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  ├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "commons-lang/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens libraries/commons-lang/ 2 10",
+    "h": "Открыть libraries/commons-lang/"
+   },
+   {
+    "t": "  278 КБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.4%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… ещё 2 (221 КБ, 0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "cache/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens cache/ 2 10",
+    "h": "Открыть cache/"
+   },
+   {
+    "t": "  53.7 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "mojang_1.21.11.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  53.7 МБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "paper.jar",
+    "c": "white",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  52.3 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.3%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "├─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "versions/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/ 2 10",
+    "h": "Открыть versions/"
+   },
+   {
+    "t": "  28.2 МБ",
+    "c": "green",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (0.2%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "│  └─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "1.21.11/",
+    "c": "aqua",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens versions/1.21.11/ 2 10",
+    "h": "Открыть versions/1.21.11/"
+   },
+   {
+    "t": "  28.2 МБ",
+    "c": "red",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": " (100.0%)",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  1 ф.",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "└─ ",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "… ещё 18 (29.3 КБ, 0.0%)",
+    "c": "gray",
+    "b": false,
+    "i": true,
+    "k": null,
+    "h": null
+   }
+  ],
+  [
+   {
+    "t": "Скан: 4 с назад за 0.0 с, ошибок доступа: 0, пропущено ссылок: 0",
+    "c": "dark_gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "  ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Пересканировать]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens ./ -r",
+    "h": "Сканировать заново без кеша"
+   },
+   {
+    "t": " ",
+    "c": "gray",
+    "b": false,
+    "i": false,
+    "k": null,
+    "h": null
+   },
+   {
+    "t": "[Отчёт в файл]",
+    "c": "gold",
+    "b": false,
+    "i": false,
+    "k": "run_command:/disklens export ./",
+    "h": "Записать полный отчёт в plugins/DiskLens/reports"
+   }
+  ]
+ ]
+}

@@ -1,0 +1,22 @@
+# build output and tooling caches
+build/
+.gradle/
+.tmp/
+.idea/
+*.iml
+__pycache__/
+
+# local test servers and downloaded server jars (several GB)
+run-test/
+itest/buildtools/
+itest/cache/
+itest/servers/
+itest/*.log
+
+# node and secrets
+node_modules/
+.env
+*.env
+
+# keep the Gradle wrapper
+!gradle/wrapper/gradle-wrapper.jar

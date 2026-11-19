@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DiskLens master icon. 512x512 viewBox, flat shapes, no fonts or images. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>DiskLens</title>
+  <!-- Tile -->
+  <rect x="0" y="0" width="512" height="512" rx="96" ry="96" fill="#1F2937"/>
+  <!-- Lens glass -->
+  <circle cx="216" cy="216" r="128" fill="#2B3A4E"/>
+  <!-- Handle (drawn before the ring so the ring joins cleanly) -->
+  <line x1="318" y1="318" x2="424" y2="424" stroke="#F5A524" stroke-width="58" stroke-linecap="round"/>
+  <!-- Lens ring -->
+  <circle cx="216" cy="216" r="128" fill="none" stroke="#F4F6F8" stroke-width="34"/>
+  <!-- Size-sorted bars: largest folder first, left-aligned -->
+  <rect x="128" y="160" width="168" height="28" rx="6" fill="#F5A524"/>
+  <rect x="128" y="204" width="128" height="28" rx="6" fill="#4FC3F7"/>
+  <rect x="128" y="248" width="80" height="28" rx="6" fill="#6EE7B7"/>
+</svg>

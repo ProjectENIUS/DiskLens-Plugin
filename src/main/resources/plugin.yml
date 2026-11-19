@@ -1,0 +1,15 @@
+name: DiskLens
+version: '${version}'
+main: dev.disklens.DiskLensPlugin
+api-version: '1.13'
+folia-supported: true
+description: Shows which server folders take up the most disk space
+commands:
+  disklens:
+    description: Folder tree of the server sorted by size
+    usage: "/disklens [path] [depth] [topN] [-r] | files [N] | export [path] | status | reload | help"
+    permission: disklens.use
+permissions:
+  disklens.use:
+    description: Use /disklens
+    default: op
