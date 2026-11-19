@@ -120,5 +120,24 @@ Results go to `itest/results/`.
 
 ## License
 
-<!-- TODO: add a LICENSE file and state the license here. -->
-Not yet specified.
+Copyright (c) 2026 ProjectENIUS
+All Rights Reserved.
+
+1. GRANT OF LICENSE
+You are permitted to download and run the compiled plugin binary (.jar) 
+on your Minecraft server(s) for personal or commercial server operation, 
+provided the file is obtained from an official distribution source 
+(Modrinth, SpigotMC, Hangar, or CurseForge).
+
+2. RESTRICTIONS
+Except as expressly permitted above, you may NOT:
+- Copy, modify, adapt, translate, or create derivative works based on the plugin or its source code.
+- Decompile, reverse engineer, or disassemble the compiled binary.
+- Redistribute, re-upload, sublicense, or sell the plugin or its source code on any platform, website, or in modpacks/server packs without prior written permission from the author.
+
+3. DISCLAIMER
+THE PLUGIN IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE 
+AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM, 
+OUT OF OR IN CONNECTION WITH THE PLUGIN.
