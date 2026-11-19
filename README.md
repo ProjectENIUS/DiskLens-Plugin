@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="release/logo/disklens-icon-256.png" width="128" alt="DiskLens logo">
+  <img src="disklens-banner.png" width="1200" alt="DiskLens Banner">
 </p>
 
 <h1 align="center">DiskLens</h1>
