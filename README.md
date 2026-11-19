@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <a href="README.ru.md">Русская версия</a>
+  <a href="README_RU.md">Русская версия</a>
 </p>
 
 ---
